@@ -342,3 +342,4 @@ Zeroing confirmed;Обнуление подтверждено
 Zeroing not confirmed;Подтверждения обнуления нет
 ZMOD parameters. Set via SAVE_ZMOD_DATA;Параметры zmod. Задаются через SAVE_ZMOD_DATA
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Установка Z-offset пропущена, SKIP_ZOFFSET={skip_zoffset}
+Available languages;Доступные языки
