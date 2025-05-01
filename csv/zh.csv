@@ -343,3 +343,4 @@ Zeroing not confirmed;未确认归零
 ZMOD parameters. Set via SAVE_ZMOD_DATA;ZMOD参数。通过SAVE_ZMOD_DATA设置
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Z偏移设置已跳过，SKIP_ZOFFSET={skip_zoffset}
 Available languages;可用语言
+Restore backup config files from archive;从存档中恢复备份配置文件

@@ -343,3 +343,4 @@ Zeroing not confirmed;Zeroing not confirmed
 ZMOD parameters. Set via SAVE_ZMOD_DATA;ZMOD parameters. Set via SAVE_ZMOD_DATA
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset}
 Available languages;Available languages
+Restore backup config files from archive;Restore backup config files from archive

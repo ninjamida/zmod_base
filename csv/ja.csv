@@ -343,3 +343,4 @@ Zeroing not confirmed;ゼロ点未確認
 ZMOD parameters. Set via SAVE_ZMOD_DATA;ZMODパラメータ。SAVE_ZMOD_DATAで設定
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Zオフセット設定をスキップ、SKIP_ZOFFSET={skip_zoffset}
 Available languages;利用可能な言語
+Restore backup config files from archive;アーカイブからバックアップ構成ファイルを復元する
