@@ -345,3 +345,4 @@ Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Configuración de Z-offset o
 Available languages;Idiomas disponibles
 Restore backup config files from archive;Restaurar archivos de configuración de respaldo desde el archivo
 To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;Para restaurar la configuración, copie a 'Configuración' -> 'mod_data' -> config.tar y llame a RESTORE_TAR_CONFIG
+Set LED;Establecer LED
