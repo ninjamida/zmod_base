@@ -346,3 +346,6 @@ Available languages;Доступные языки
 Restore backup config files from archive;Восстановить резервные копии файлов конфигурации из архива
 To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;Для восстановления конфига скопировать в 'Конфигурация' -> 'mod_data' -> config.tar и вызвать RESTORE_TAR_CONFIG
 Set LED;Установить светодиод
+Don't hide color selection when printing starts;Не скрывать выбор цвета при запуске печати
+Hide color selection, print with IFS;Скрыть выбор цвета, печатать с IFS
+Hide color selection, print without IFS;Скрыть выбор цвета, печатать без IFS

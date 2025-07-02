@@ -346,3 +346,6 @@ Available languages;Lingue disponibili
 Restore backup config files from archive;Ripristina i file di configurazione di backup dall'archivio
 To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;Per ripristinare la configurazione, copia in 'Configurazione' -> 'mod_data' -> config.tar e chiama RESTORE_TAR_CONFIG
 Set LED;Imposta LED
+Don't hide color selection when printing starts;Non nascondere la selezione colore all'avvio della stampa
+Hide color selection, print with IFS;Nascondi la selezione colore, stampa con IFS
+Hide color selection, print without IFS;Nascondi la selezione colore, stampa senza IFS
