@@ -318,7 +318,7 @@ Using filament presence sensor;Filament-Präsenzsensor in Verwendung
 Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored;Globale Z-Offset-Steuerung aktiv. SKIP_ZOFFSET und Z_OFFSET ignoriert
 Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};KAMP aus globalen Einstellungen. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
 Using KAMP;KAMP in Verwendung
-Using Klipper 12;Klipper 12 in Verwendung
+Using Klipper 13;Klipper 13 in Verwendung
 Using native Klipper;Natives Klipper in Verwendung
 Wait 10 seconds and power on again. MCU update will begin.;10 Sek. warten und neu einschalten. MCU-Update startet.
 Wait for the music and power off the printer.;Auf Musik warten und Drucker ausschalten.
