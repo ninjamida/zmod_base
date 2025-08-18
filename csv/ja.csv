@@ -349,3 +349,8 @@ Set LED;LEDを設定する
 Don't hide color selection when printing starts;印刷開始時にカラー選択を非表示にしないでください
 Hide color selection, print with IFS;カラー選択を非表示にして、IFSで印刷してください
 Hide color selection, print without IFS;カラー選択を非表示にして、IFSなしで印刷してください
+Cutting the filament;フィラメントを切断
+Cleaning the nozzle on rubber;ノズルをゴムで清掃
+Loading filament;フィラメントをロード
+Unloading filament;フィラメントをアンロード
+Heating the nozzle to {extruder_temp} degrees;ノズルを{extruder_temp}度に加熱

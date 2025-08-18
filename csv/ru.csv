@@ -349,3 +349,8 @@ Set LED;Установить светодиод
 Don't hide color selection when printing starts;Не скрывать выбор цвета при запуске печати
 Hide color selection, print with IFS;Скрыть выбор цвета, печатать с IFS
 Hide color selection, print without IFS;Скрыть выбор цвета, печатать без IFS
+Cutting the filament;Отрезаем пруток
+Cleaning the nozzle on rubber;Чистим сопло о резину
+Loading filament;Вставляю пруток
+Unloading filament;Извлекаю пруток
+Heating the nozzle to {extruder_temp} degrees;Прогреваю сопло до {extruder_temp} градусов

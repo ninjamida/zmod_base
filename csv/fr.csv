@@ -349,3 +349,8 @@ Set LED;Ensemble LED
 Don't hide color selection when printing starts;Ne pas masquer la sélection de couleur au démarrage de l'impression
 Hide color selection, print with IFS;Masquer la sélection de couleur, imprimer avec IFS
 Hide color selection, print without IFS;Masquer la sélection de couleur, imprimer sans IFS
+Cutting the filament;Couper le filament
+Cleaning the nozzle on rubber;Nettoyer la buse sur le caoutchouc
+Loading filament;Charger le filament
+Unloading filament;Décharger le filament
+Heating the nozzle to {extruder_temp} degrees;Chauffer la buse à {extruder_temp} degrés

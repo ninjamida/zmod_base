@@ -349,3 +349,8 @@ Set LED;LED einstellen
 Don't hide color selection when printing starts;Farbauswahl nicht ausblenden, wenn der Druck beginnt
 Hide color selection, print with IFS;Farbauswahl ausblenden, mit IFS drucken
 Hide color selection, print without IFS;Farbauswahl ausblenden, ohne IFS drucken
+Cutting the filament;Filament schneiden
+Cleaning the nozzle on rubber;Düse am Gummi reinigen
+Loading filament;Filament einführen
+Unloading filament;Filament auswerfen
+Heating the nozzle to {extruder_temp} degrees;Düse auf {extruder_temp} Grad aufheizen

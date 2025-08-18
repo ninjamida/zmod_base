@@ -349,3 +349,8 @@ Set LED;设置 LED
 Don't hide color selection when printing starts;打印开始时不要隐藏颜色选择
 Hide color selection, print with IFS;隐藏颜色选择，使用IFS打印
 Hide color selection, print without IFS;隐藏颜色选择，不使用IFS打印
+Cutting the filament;切断耗材
+Cleaning the nozzle on rubber;在橡胶上清洁喷嘴
+Loading filament;装载耗材
+Unloading filament;卸载耗材
+Heating the nozzle to {extruder_temp} degrees;将喷嘴加热到{extruder_temp}度

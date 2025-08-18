@@ -349,3 +349,8 @@ Set LED;Set LED
 Don't hide color selection when printing starts;Don't hide color selection when printing starts
 Hide color selection, print with IFS;Hide color selection, print with IFS
 Hide color selection, print without IFS;Hide color selection, print without IFS
+Cutting the filament;Cutting the filament
+Cleaning the nozzle on rubber;Cleaning the nozzle on rubber
+Loading filament;Loading filament
+Unloading filament;Unloading filament
+Heating the nozzle to {extruder_temp} degrees;Heating the nozzle to {extruder_temp} degrees
