@@ -369,3 +369,5 @@ If it takes a long time, calibrate the PID of the extruder and bed;시간이 오
 Temperature normalization completed;온도 정상화 완료
 Don't remove the filament after printing is completed;인쇄 완료 후 필라멘트를 제거하지 마십시오
 Remove filament after printing is complete;인쇄 완료 후 필라멘트를 제거하십시오
+Is the alternate screen taking a long time to load? Reduce the default screen's load time.;대체 화면 로딩 시간이 오래 걸리나요? 기본 화면 로딩 시간을 줄이세요.
+Tired of problems with WiFi, let zmod manage it.;WiFi 문제에 지치셨나요? zmod가 관리하도록 하세요.

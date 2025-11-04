@@ -369,3 +369,5 @@ If it takes a long time, calibrate the PID of the extruder and bed;如果耗时�
 Temperature normalization completed;温度正常化已完成
 Don't remove the filament after printing is completed;打印完成后不要取出耗材
 Remove filament after printing is complete;打印完成后取出耗材
+Is the alternate screen taking a long time to load? Reduce the default screen's load time.;备用屏幕加载时间过长？减少默认屏幕的加载时间。
+Tired of problems with WiFi, let zmod manage it.;厌倦了WiFi问题？让zmod来管理它。

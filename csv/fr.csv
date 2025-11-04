@@ -369,3 +369,5 @@ If it takes a long time, calibrate the PID of the extruder and bed;Si cela prend
 Temperature normalization completed;Normalisation de la température terminée
 Don't remove the filament after printing is completed;Ne pas retirer le filament après l'impression
 Remove filament after printing is complete;Retirer le filament après l'impression
+Is the alternate screen taking a long time to load? Reduce the default screen's load time.;L'écran alternatif met-il trop de temps à charger ? Réduisez le temps de chargement de l'écran par défaut.
+Tired of problems with WiFi, let zmod manage it.;Fatigué des problèmes WiFi ? Laissez zmod les gérer.
