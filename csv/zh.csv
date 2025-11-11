@@ -371,3 +371,4 @@ Don't remove the filament after printing is completed;打印完成后不要取�
 Remove filament after printing is complete;打印完成后取出耗材
 Is the alternate screen taking a long time to load? Reduce the default screen's load time.;备用屏幕加载时间过长？减少默认屏幕的加载时间。
 Tired of problems with WiFi, let zmod manage it.;厌倦了WiFi问题？让zmod来管理它。
+Incorrect start code START_PRINT EXTRUDER_TEMP BED_TEMP must be written in one line !!;起始代码不正确 START_PRINT EXTRUDER_TEMP BED_TEMP 必须写在同一行 !!
