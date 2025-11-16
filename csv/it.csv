@@ -373,3 +373,4 @@ Is the alternate screen taking a long time to load? Reduce the default screen's 
 Tired of problems with WiFi, let zmod manage it.;Stanco dei problemi con il WiFi? Lascia che zmod lo gestisca.
 Incorrect start code START_PRINT EXTRUDER_TEMP BED_TEMP must be written in one line !!;Codice di avvio errato START_PRINT EXTRUDER_TEMP BED_TEMP deve essere scritto su una riga !!
 Don't forget to turn off the camera on your printer's native screen.;Non dimenticare di spegnere la telecamera sullo schermo nativo della stampante.
+START_PRINT has finished its work.;START_PRINT ha terminato il suo lavoro.
