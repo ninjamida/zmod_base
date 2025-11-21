@@ -374,3 +374,5 @@ Tired of problems with WiFi, let zmod manage it.;Müde von WiFi-Problemen? Lasse
 Incorrect start code START_PRINT EXTRUDER_TEMP BED_TEMP must be written in one line !!;Falscher Startcode START_PRINT EXTRUDER_TEMP BED_TEMP muss in einer Zeile geschrieben werden !!
 Don't forget to turn off the camera on your printer's native screen.;Vergessen Sie nicht, die Kamera auf dem native Bildschirm Ihres Druckers auszuschalten.
 START_PRINT has finished its work.;START_PRINT hat seine Arbeit beendet.
+Incorrect MCU version. Need run UPDATE_MCU FORCE=13;Falsche MCU-Version. Führen Sie UPDATE_MCU FORCE=13 aus
+

@@ -374,3 +374,4 @@ Tired of problems with WiFi, let zmod manage it.;Устали от пробле�
 Incorrect start code START_PRINT EXTRUDER_TEMP BED_TEMP must be written in one line !!;Неверный стартовый код START_PRINT EXTRUDER_TEMP BED_TEMP должены быть записан в одной строке !!
 Don't forget to turn off the camera on your printer's native screen.;Не забудьте отключить камеру на родном экране принтера
 START_PRINT has finished its work.;START_PRINT закончил свою работу.
+Incorrect MCU version. Need run UPDATE_MCU FORCE=13;Неверная версия MCU. Запустите UPDATE_MCU FORCE=13
