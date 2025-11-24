@@ -375,3 +375,4 @@ Incorrect start code START_PRINT EXTRUDER_TEMP BED_TEMP must be written in one l
 Don't forget to turn off the camera on your printer's native screen.;Non dimenticare di spegnere la telecamera sullo schermo nativo della stampante.
 START_PRINT has finished its work.;START_PRINT ha terminato il suo lavoro.
 Incorrect MCU version. Need run UPDATE_MCU FORCE=13;Versione MCU non corretta. Eseguire UPDATE_MCU FORCE=13
+Incorrect ZLINK data. Register your printer on the http://zlink.info and receive a ZLINK string.;Dati ZLINK non corretti. Registra la tua stampante su http://zlink.info e ricevi una stringa ZLINK.
