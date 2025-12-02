@@ -15,7 +15,7 @@ Automatic printer shutdown in {pro_poweroff_timeout} min;{pro_poweroff_timeout}�
 Automatic reboot in 1.5 minutes;1.5분 후 자동 재부팅
 Auto reboot printer after 1.5 minutes;인쇄 후 1.5분 자동 재시작
 Auto restart firmware after 1.5 minutes;인쇄 후 1.5분 펌웨어 재시작
-Backup config files to archive;구성 파일 백업 (config.tar)
+Backup config files to archive;구성 파일 백업 (config.tar.gz)
 Bed calibration. Profile {profile}. Extruder temp: {extruder_temp} / Bed temp: {bed_temp};베드 보정. 프로필 {profile}. 노즐 온도: {extruder_temp} / 베드 온도: {bed_temp}
 Bed calibration without temperature off;온도 유지 베드 보정
 Bed calibration with temperature off;온도 끈 상태 베드 보정
@@ -83,7 +83,7 @@ Don't save data for print recovery;인쇄 복구 데이터 저장 안 함
 Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};인쇄 전 베드 메시 테스트 안 함 // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};BED_MESH_CALIBRATE 대신 KAMP 사용 안 함 // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
 Don't use nozzle pre-purge;노즐 사전 퓨지 사용 안 함
-Download archive in 'Configuration' -> 'mod_data' -> config.tar;config.tar 다운로드 경로: '구성' -> 'mod_data'
+Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;config.tar.gz 다운로드 경로: '구성' -> 'mod_data'
 Enable backlight;백라이트 켜기
 Enable camera on printer screen;프린터 화면 카메라 켜기
 Enable/disable pause at specific layer;특정 레이어에서 일시정지 활성화/비활성화
@@ -345,7 +345,7 @@ ZMOD parameters. Set via SAVE_ZMOD_DATA;ZMOD 매개변수. SAVE_ZMOD_DATA로 설
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Z-오프셋 설정 건너뜀, SKIP_ZOFFSET={skip_zoffset}
 Available languages;사용 가능한 언어
 Restore backup config files from archive;아카이브에서 백업 구성 파일 복원
-To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;구성을 복원하려면 '구성' -> 'mod_data' -> config.tar로 복사하고 RESTORE_TAR_CONFIG를 호출하세요.
+To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;구성을 복원하려면 '구성' -> 'mod_data' -> config.tar.gz로 복사하고 RESTORE_TAR_CONFIG를 호출하세요.
 Set LED;LED 설정
 Don't hide color selection when printing starts;인쇄 시작 시 컬러 선택 숨기지 마세요
 Hide color selection, print with IFS;컬러 선택 숨기고 IFS로 인쇄하세요

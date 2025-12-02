@@ -83,7 +83,7 @@ Don't save data for print recovery;Neukládat data pro obnovu tisku
 Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Netestovat síť podložky před tiskem // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Nepoužívat KAMP místo BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
 Don't use nozzle pre-purge;Nepoužívat předčištění trysky
-Download archive in 'Configuration' -> 'mod_data' -> config.tar;Stáhnout archiv v 'Configuration' -> 'mod_data' -> config.tar
+Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Stáhnout archiv v 'Configuration' -> 'mod_data' -> config.tar.gz
 Enable backlight;Zapnout podsvícení
 Enable camera on printer screen;Zapnout kameru na displeji tiskárny
 Enable/disable pause at specific layer;Povolit/zakázat pauzu na konkrétní vrstvě
@@ -345,7 +345,7 @@ ZMOD parameters. Set via SAVE_ZMOD_DATA;Parametry ZMOD. Nastavte přes SAVE_ZMOD
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Nastavení Z-offset přeskočeno, SKIP_ZOFFSET={skip_zoffset}
 Available languages;Dostupné jazyky
 Restore backup config files from archive;Obnovit zálohované konfigurační soubory z archivu
-To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;Pro obnovení konfigurace zkopírujte do 'Configuration' -> 'mod_data' -> config.tar a zavolejte RESTORE_TAR_CONFIG
+To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;Pro obnovení konfigurace zkopírujte do 'Configuration' -> 'mod_data' -> config.tar.gz a zavolejte RESTORE_TAR_CONFIG
 Set LED;Nastavit LED
 Don't hide color selection when printing starts;Neskrývat výběr barvy při spuštění tisku
 Hide color selection, print with IFS;Skrýt výběr barvy, tisknout s IFS

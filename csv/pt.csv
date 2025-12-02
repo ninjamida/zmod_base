@@ -345,7 +345,7 @@ ZMOD parameters. Set via SAVE_ZMOD_DATA;Parâmetros ZMOD. Defina via SAVE_ZMOD_D
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Configuração Z-offset ignorada, SKIP_ZOFFSET={skip_zoffset}
 Available languages;Idiomas disponíveis
 Restore backup config files from archive;Restaurar ficheiros de configuração de backup do arquivo
-To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;Para restaurar o config, copie para 'Configuration' -> 'mod_data' -> config.tar e chame RESTORE_TAR_CONFIG
+To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;Para restaurar o config, copie para 'Configuration' -> 'mod_data' -> config.tar.gz e chame RESTORE_TAR_CONFIG
 Set LED;Definir LED
 Don't hide color selection when printing starts;Não ocultar seleção de cor quando a impressão inicia
 Hide color selection, print with IFS;Ocultar seleção de cor, imprimir com IFS

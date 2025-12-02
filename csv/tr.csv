@@ -83,7 +83,7 @@ Don't save data for print recovery;Yazdırma kurtarma için veri kaydetme
 Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Yazdırmadan önce yatak ağını test etme // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};BED_MESH_CALIBRATE yerine KAMP kullanma // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
 Don't use nozzle pre-purge;Nozul ön temizleme kullanma
-Download archive in 'Configuration' -> 'mod_data' -> config.tar;Arşiv, 'Yapılandırma' -> 'mod_data' -> config.tar yolundan indirilebilir
+Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Arşiv, 'Yapılandırma' -> 'mod_data' -> config.tar.gz yolundan indirilebilir
 Enable backlight;Arka ışığı aç
 Enable camera on printer screen;Yazıcı ekranındaki kamerayı etkinleştirin
 Enable/disable pause at specific layer;Belirli bir katmanda duraklamayı aç/kapat
@@ -345,7 +345,7 @@ ZMOD parameters. Set via SAVE_ZMOD_DATA;ZMOD parametreleri. SAVE_ZMOD_DATA ile a
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Z-offset kurulumu atlandı, SKIP_ZOFFSET={skip_zoffset}
 Available languages;Mevcut diller
 Restore backup config files from archive;Yedek yapılandırma dosyalarını arşivden geri yükle
-To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;Yapılandırmayı geri yüklemek için, 'Yapılandırma' -> 'mod_data' -> config.tar yoluna kopyalayın ve RESTORE_TAR_CONFIG'u çağırın
+To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;Yapılandırmayı geri yüklemek için, 'Yapılandırma' -> 'mod_data' -> config.tar.gz yoluna kopyalayın ve RESTORE_TAR_CONFIG'u çağırın
 Set LED;LED'i ayarla
 Don't hide color selection when printing starts;Yazdırma başladığında renk seçimini gizleme
 Hide color selection, print with IFS;Renk seçimini gizle, IFS ile yazdır

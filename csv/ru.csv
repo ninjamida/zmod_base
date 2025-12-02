@@ -83,7 +83,7 @@ Don't save data for print recovery;Не сохранять данные для �
 Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Не тестировать карту стола перед печатью // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Не использоваить KAMP вместо BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
 Don't use nozzle pre-purge;Не использовать предочистку сопла
-Download archive in 'Configuration' -> 'mod_data' -> config.tar;Скачать архив можно в 'Конфигурация' -> 'mod_data' -> config.tar
+Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Скачать архив можно в 'Конфигурация' -> 'mod_data' -> config.tar.gz
 Enable backlight;Включить подсветку
 Enable camera on printer screen;Включите камеру на экране принтера
 Enable/disable pause at specific layer;Включить/Выключить паузу на конкретном номере слоя
@@ -345,7 +345,7 @@ ZMOD parameters. Set via SAVE_ZMOD_DATA;Параметры zmod. Задаютс�
 Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Установка Z-offset пропущена, SKIP_ZOFFSET={skip_zoffset}
 Available languages;Доступные языки
 Restore backup config files from archive;Восстановить резервные копии файлов конфигурации из архива
-To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar and call RESTORE_TAR_CONFIG;Для восстановления конфига скопировать в 'Конфигурация' -> 'mod_data' -> config.tar и вызвать RESTORE_TAR_CONFIG
+To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;Для восстановления конфига скопировать в 'Конфигурация' -> 'mod_data' -> config.tar.gz и вызвать RESTORE_TAR_CONFIG
 Set LED;Установить светодиод
 Don't hide color selection when printing starts;Не скрывать выбор цвета при запуске печати
 Hide color selection, print with IFS;Скрыть выбор цвета, печатать с IFS
