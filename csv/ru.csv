@@ -380,3 +380,4 @@ Incorrect ZLINK data. Register your printer on the http://zlink.info and receive
 Use LOAD_ZOFFSET_NATIVE to copy the Z-offset from the native screen.;Используйте LOAD_ZOFFSET_NATIVE для копирования Z-offset с родного экрана.
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;Включите NOZZLE_CONTROL для контроля удара сопла о стол
 Loading a similar rod from coil;Загрузка аналогичного прутка с катушки
+Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Используйте SAVE_ZMOD_DATA MESH_TEST=2 для автоматического запуска KAMP при ошибке

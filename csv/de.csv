@@ -380,3 +380,4 @@ Incorrect ZLINK data. Register your printer on the http://zlink.info and receive
 Use LOAD_ZOFFSET_NATIVE to copy the Z-offset from the native screen.;Verwenden Sie LOAD_ZOFFSET_NATIVE, um den Z-Offset vom native Bildschirm zu kopieren.
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;Aktivieren Sie NOZZLE_CONTROL, um den Düseneinfluss auf den Tisch zu steuern
 Loading a similar rod from coil;Laden eines ähnlichen Filaments von Spule
+Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Verwenden Sie SAVE_ZMOD_DATA MESH_TEST=2, um KAMP bei einem Fehler automatisch zu starten
