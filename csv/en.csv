@@ -292,6 +292,7 @@ System-wide parameters;System-wide parameters
 temperature to;temperature to
 Temporary ZMOD disable;Temporary ZMOD disable
 Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Test EMMC;Test EMMC
 The printer was not homed (G28);The printer was not homed (G28)
 This will take some time (3-5 minutes);This will take some time (3-5 minutes)

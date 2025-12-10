@@ -292,6 +292,7 @@ System-wide parameters;Parametri di sistema
 temperature to;temperatura a
 Temporary ZMOD disable;Disabilitazione temporanea di ZMOD
 Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Testa la griglia del piatto prima della stampa // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Testa la griglia del piatto prima della stampa + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Test EMMC;Testa EMMC
 The printer was not homed (G28);La stampante non è stata azzerata (G28)
 This will take some time (3-5 minutes);Ci vorrà del tempo (3-5 minuti)

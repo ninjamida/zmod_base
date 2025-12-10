@@ -292,6 +292,7 @@ System-wide parameters;Sistem geneli parametreler
 temperature to;sıcaklığını şuna
 Temporary ZMOD disable;ZMOD'u geçici olarak devre dışı bırak
 Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Yazdırmadan önce yatak ağını test et // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Yazdırmadan önce yatak ağını test et + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Test EMMC;EMMC'yi test et
 The printer was not homed (G28);Yazıcı sıfırlanmadı (G28)
 This will take some time (3-5 minutes);Bu biraz zaman alacak (3-5 dakika)

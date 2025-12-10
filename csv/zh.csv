@@ -292,6 +292,7 @@ System-wide parameters;全局参数
 temperature to;温度至
 Temporary ZMOD disable;临时禁用ZMOD
 Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};打印前测试床面网格 // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};打印前测试床面网格 + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Test EMMC;测试EMMC
 The printer was not homed (G28);打印机未归零（G28）
 This will take some time (3-5 minutes);需要一些时间（3-5分钟）

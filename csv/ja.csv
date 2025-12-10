@@ -292,6 +292,7 @@ System-wide parameters;システム全体のパラメータ
 temperature to;温度を
 Temporary ZMOD disable;ZMODを一時無効化
 Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};印刷前にベッドメッシュをテスト // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};印刷前にベッドメッシュをテスト+ KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Test EMMC;EMMCをテスト
 The printer was not homed (G28);プリンタがホームされていません（G28）
 This will take some time (3-5 minutes);数分かかります（3-5分）

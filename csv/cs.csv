@@ -292,6 +292,7 @@ System-wide parameters;Systémové parametry
 temperature to;teplotu na
 Temporary ZMOD disable;Dočasné vypnutí ZMOD
 Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Testovat síť podložky před tiskem // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Testovat síť podložky před tiskem + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Test EMMC;Testovat EMMC
 The printer was not homed (G28);Tiskárna nebyla homována (G28)
 This will take some time (3-5 minutes);Toto bude chvíli trvat (3-5 minut)

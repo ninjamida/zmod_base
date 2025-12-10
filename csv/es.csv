@@ -292,6 +292,7 @@ System-wide parameters;Parámetros de sistema
 temperature to;temperatura a
 Temporary ZMOD disable;Deshabilitar temporalmente ZMOD
 Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Probar malla de cama antes de imprimir // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Probar malla de cama antes de imprimir + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
 Test EMMC;Probar EMMC
 The printer was not homed (G28);La impresora no fue homed (G28)
 This will take some time (3-5 minutes);Esto tomará algo de tiempo (3-5 minutos)
