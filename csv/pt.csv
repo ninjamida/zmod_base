@@ -381,3 +381,6 @@ Use LOAD_ZOFFSET_NATIVE to copy the Z-offset from the native screen.;Use LOAD_ZO
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;Ligue NOZZLE_CONTROL para controlar o impacto do bico na mesa
 Loading a similar rod from coil;A carregar filamento similar da bobina
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Use SAVE_ZMOD_DATA MESH_TEST=2 para iniciar automaticamente o KAMP se ocorrer um erro
+If any parameters were changed, it is recommended to reboot the printer;Se algum parâmetro foi alterado, é recomendado reiniciar a impressora
+Initial setting;Configuração inicial
+You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;Pode navegar e alterar parâmetros globais se necessário. https://github.com/ghzserg/zmod/wiki/Global_en
