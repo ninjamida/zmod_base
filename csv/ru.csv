@@ -384,3 +384,4 @@ Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;�
 If any parameters were changed, it is recommended to reboot the printer;Если были изменены какие-либо параметры, рекомендуется перезагрузить принтер
 Initial setting;Начальная настройка
 You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;Вы можете просматривать и изменять глобальные параметры при необходимости. https://github.com/ghzserg/zmod/wiki/Global_ru
+Enable the recommendations plugin? It allows you to configure basic settings with one click.;Включить плагин рекомендаций? Он позволяет настроить базовые параметры одним кликом.
