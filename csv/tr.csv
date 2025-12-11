@@ -27,13 +27,13 @@ Bed screw calibration;Yatak vidaları kalibrasyonu
 Bed temperature: {bed_temp};Yatak Sıcaklığı: {bed_temp}
 Before measurements, don't forget to clean the nozzle with CLEAR_NOZZLE macro;Ölçümlerden önce, nozulu CLEAR_NOZZLE makrosu ile temizlemeyi unutmayın
 Block Chinese clouds;Çin bulutlarını engelle
-Build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Her yazdırmada yatak ağı oluştur. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Build bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Her yazdırmada yerel ekran ile yatak ağı oluştur. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Build bed mesh on each print.;Her yazdırmada yatak ağı oluştur.
+Build bed mesh with native screen on each print.;Her yazdırmada yerel ekran ile yatak ağı oluştur.
 Building auto mesh (no loaded profile);Yüklenen profil olmadığı için otomatik yatak ağı oluşturuluyor
-Building bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Her yazdırmada yatak ağı oluştur. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Building bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Her yazdırmada yerel ekran ile yatak ağı oluştur. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Building bed mesh on each print.;Her yazdırmada yatak ağı oluştur.
+Building bed mesh with native screen on each print.;Her yazdırmada yerel ekran ile yatak ağı oluştur.
 Building default mesh (FORCE_LEVELING={force_leveling});Varsayılan yatak ağı oluşturuluyor (FORCE_LEVELING={force_leveling})
-Building full bed mesh. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Tam yatak ağı oluşturuluyor. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Building full bed mesh.;Tam yatak ağı oluşturuluyor.
 Building {mesh} mesh (not found). Save it AFTER print!;Yatak ağı {mesh} bulunamadığı için oluşturuluyor. Yazdırmadan SONRA kaydedin!
 Cancellation sent to native screen;İptal, yerel ekrana gönderildi
 Cancel print;Yazdırmayı İptal Et
@@ -63,7 +63,7 @@ Did you know you can enable KAMP globally?;KAMP'ı genel olarak etkinleştirebil
 Disable alternative camera;Alternatif kamerayı devre dışı bırak
 Disable backlight;Arka ışığı kapat
 Disable camera on printer screen;Yazıcı ekranındaki kamerayı devre dışı bırakın
-Disable check with: MESH // SAVE_ZMOD_DATA MESH_TEST=0;Bu mesajın hatalı olduğunu düşünüyorsanız, kontrolü devre dışı bırakın MESH // SAVE_ZMOD_DATA MESH_TEST=0
+Disable check with: MESH;Bu mesajın hatalı olduğunu düşünüyorsanız, kontrolü devre dışı bırakın MESH
 Disable circulation;Dolaşımı kapat
 Disable filament sensor on native screen;Yerel ekrandaki filament sensörünü devre dışı bırakın
 Disable heating and cooler;Isıtma ve soğutucuyu devre dışı bırak
@@ -71,7 +71,7 @@ Disable nozzle line purge;Nozul çizgi temizlemeyi kapat
 Disable SSH port forwarding;SSH port yönlendirmeyi devre dışı bırak
 Disable stock screen;Standart ekranı kapat
 Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;Yatak hizalamasının, z-offset'in ve START_PRINT/END_PRINT makrolarının nasıl çalıştığını tam olarak anlamıyorsanız ekranı devre dışı bırakmayın
-Don't build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Her yazdırmada yatak ağı oluşturma // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Don't build bed mesh on each print.;Her yazdırmada yatak ağı oluşturma
 Don't check file MD5 checksum;Dosya MD5 sağlama toplamını kontrol etme
 Don't close dialogs on native screen;Yerel ekrandaki iletişim kutularını kapatma
 Don't disable motors automatically after print/cancel;Yazdırma/iptalden sonra motorları otomatik devre dışı bırakma
@@ -80,8 +80,8 @@ Don't fix E0017 error;E0017 hatasını düzeltme
 Don't load Z-OFFSET from global settings;Z-OFFSET'ı genel ayarlardan yükleme
 Don't reboot printer automatically;Yazıcıyı otomatik yeniden başlatma
 Don't save data for print recovery;Yazdırma kurtarma için veri kaydetme
-Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Yazdırmadan önce yatak ağını test etme // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};BED_MESH_CALIBRATE yerine KAMP kullanma // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Don't test bed mesh before printing;Yazdırmadan önce yatak ağını test etme
+Don't use KAMP instead of BED_MESH_CALIBRATE;BED_MESH_CALIBRATE yerine KAMP kullanma
 Don't use nozzle pre-purge;Nozul ön temizleme kullanma
 Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Arşiv, 'Yapılandırma' -> 'mod_data' -> config.tar.gz yolundan indirilebilir
 Enable backlight;Arka ışığı aç
@@ -103,7 +103,7 @@ Extruder PID calibration;Ekstrüder PID Kalibrasyonu
 Extruder temperature: {extruder_temp};Ekstrüder Sıcaklığı: {extruder_temp}
 Extrudes, if the extruder is hot enough;Ekstrüder yeterince sıcaksa ekstrüzyon yapar
 Extruding 10 cm of filament;10 cm filament ekstrüde ediliyor
-Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2;Pencere kapatma işlemi başarısız mı? Hızlı kapatma kullanın: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2
+Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS;Pencere kapatma işlemi başarısız mı? Hızlı kapatma kullanın: FAST_CLOSE_DIALOGS
 Fans control;Fanları Kontrol Et
 Far;Uzak
 Filament change requested. Load new filament and click 'Resume'.;Filament değişimi istendi. Yeni filament yükleyin ve 'Devam Et' butonuna tıklayın.
@@ -291,8 +291,8 @@ Switch web interface (fluidd/mainsail);Web arayüzünü değiştir (fluidd/mains
 System-wide parameters;Sistem geneli parametreler
 temperature to;sıcaklığını şuna
 Temporary ZMOD disable;ZMOD'u geçici olarak devre dışı bırak
-Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Yazdırmadan önce yatak ağını test et // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Yazdırmadan önce yatak ağını test et + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing;Yazdırmadan önce yatak ağını test et
+Test bed mesh before printing + KAMP;Yazdırmadan önce yatak ağını test et + KAMP
 Test EMMC;EMMC'yi test et
 The printer was not homed (G28);Yazıcı sıfırlanmadı (G28)
 This will take some time (3-5 minutes);Bu biraz zaman alacak (3-5 dakika)
@@ -303,10 +303,10 @@ Turn off native screen after (sec): {display_off_timeout};Yerel ekranı (saniye)
 Unload;Boşalt
 Update MCU;MCU'yu Güncelle
 Update printer via USB;Yazıcıyı USB bellek ile güncelle
-Use adaptive mesh (KAMP) where possible instead of full bed mesh // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Mümkün olduğunda tam yatak ağı yerine uyarlanabilir ağ (KAMP) kullan // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Use adaptive mesh (KAMP) where possible instead of full bed mesh;Mümkün olduğunda tam yatak ağı yerine uyarlanabilir ağ (KAMP) kullan
 Use alternative camera;Alternatif kamerayı kullan
 Use alternative NEW_SAVE_CONFIG;Alternatif NEW_SAVE_CONFIG kullan
-Use bed leveling mode from native screen. // SAVE_ZMOD_DATA PRINT_LEVELING=1;Yatak hizalama modunu yerel ekrandan kullan. // SAVE_ZMOD_DATA PRINT_LEVELING=1
+Use bed leveling mode from native screen.;Yatak hizalama modunu yerel ekrandan kullan.
 Use Fluidd/Mainsail button settings from ZMOD;Fluidd/Mainsail buton ayarlarını ZMOD'dan kullan
 Use nozzle pre-purge;Nozul ön temizleme kullan
 Use SCV = 5 for shaper graphs;Şekillendirici grafikleri için SCV = 5 kullan
@@ -318,7 +318,7 @@ Using BED_MESH_CALIBRATE;BED_MESH_CALIBRATE kullanılıyor
 Using filament motion sensor;Filament hareket sensörü kullanılıyor
 Using filament presence sensor;Filament varlık sensörü kullanılıyor
 Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored;Genel Z-Offset kontrolü kullanılıyor. SKIP_ZOFFSET ve Z_OFFSET parametreleri yoksayılıyor
-Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Genel ayarlardan KAMP kullanılıyor. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Using KAMP from global settings.;Genel ayarlardan KAMP kullanılıyor.
 Using KAMP;KAMP kullanılıyor
 Using Klipper 13;Klipper 13 kullanılıyor
 Using native Klipper;Yerel Klipper kullanılıyor
@@ -333,7 +333,7 @@ Weight at error: {we};Hata anındaki ağırlık: {we}
 Work completed;İş Tamamlandı
 Yes;Evet
 You are NOT using native screen;Yerel ekranı KULLANMIYORSUNUZ
-You are using KAMP. Recommended to use LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE;KAMP kullanıyorsunuz. Çizgi temizleme kullanılması önerilir: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE
+You are using KAMP. Recommended to use LINE_PURGE:;KAMP kullanıyorsunuz. Çizgi temizleme kullanılması önerilir:
 You are using native screen // DISPLAY_ON;Yerel ekranla çalışıyorsunuz // DISPLAY_ON
 You are using native screen;Yerel ekranla çalışıyorsunuz
 You are working WITHOUT native screen // DISPLAY_OFF GUPPY=0;Yerel ekran OLMADAN çalışıyorsunuz // DISPLAY_OFF GUPPY=0

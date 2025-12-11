@@ -27,13 +27,13 @@ Bed screw calibration;ベッドネジ校正
 Bed temperature: {bed_temp};ベッド温度: {bed_temp}
 Before measurements, don't forget to clean the nozzle with CLEAR_NOZZLE macro;測定前はCLEAR_NOZZLEマクロでノズル清掃を忘れずに
 Block Chinese clouds;中国クラウドをブロック
-Build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};印刷ごとにベッドメッシュを生成。// SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Build bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};ネイティブ画面で印刷ごとにベッドメッシュを生成。// SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Build bed mesh on each print.;印刷ごとにベッドメッシュを生成。
+Build bed mesh with native screen on each print.;ネイティブ画面で印刷ごとにベッドメッシュを生成。
 Building auto mesh (no loaded profile);autoメッシュを生成（プロファイル未読み込み）
-Building bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};印刷ごとにベッドメッシュを生成。// SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Building bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};ネイティブ画面で印刷ごとにベッドメッシュを生成。// SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Building bed mesh on each print.;印刷ごとにベッドメッシュを生成。
+Building bed mesh with native screen on each print.;ネイティブ画面で印刷ごとにベッドメッシュを生成。
 Building default mesh (FORCE_LEVELING={force_leveling});デフォルトメッシュを生成（FORCE_LEVELING={force_leveling}）
-Building full bed mesh. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};フルベッドメッシュを生成。// SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Building full bed mesh.;フルベッドメッシュを生成。
 Building {mesh} mesh (not found). Save it AFTER print!;{mesh}メッシュを生成（未発見）。印刷後に保存！
 Cancellation sent to native screen;キャンセルをネイティブ画面に送信
 Cancel print;印刷をキャンセル
@@ -63,7 +63,7 @@ Did you know you can enable KAMP globally?;KAMPをグローバルに有効にで
 Disable alternative camera;代替カメラを無効化
 Disable backlight;バックライトを無効化
 Disable camera on printer screen;プリンタ画面のカメラを無効化
-Disable check with: MESH // SAVE_ZMOD_DATA MESH_TEST=0;チェックを無効化: MESH // SAVE_ZMOD_DATA MESH_TEST=0
+Disable check with: MESH;チェックを無効化: MESH
 Disable circulation;循環を無効化
 Disable filament sensor on native screen;ネイティブ画面のフィラメントセンサーを無効化
 Disable heating and cooler;加熱とクーラーを無効化
@@ -71,7 +71,7 @@ Disable nozzle line purge;ノズルラインパージを無効化
 Disable SSH port forwarding;SSHポート転送を無効化
 Disable stock screen;標準画面を無効化
 Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;ベッドレベリング、Zオフセット、START_PRINT/END_PRINTマクロを完全に理解していない場合は画面を無効化しないでください
-Don't build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};各プリントごとにベッドメッシュを構築しないでください // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Don't build bed mesh on each print.;各プリントごとにベッドメッシュを構築しないでください
 Don't check file MD5 checksum;ファイルのMD5チェックサムを確認しない
 Don't close dialogs on native screen;ネイティブ画面のダイアログを閉じない
 Don't disable motors automatically after print/cancel;印刷/キャンセル後、モーターを自動停止しない
@@ -80,8 +80,8 @@ Don't fix E0017 error;E0017エラーを修正しない
 Don't load Z-OFFSET from global settings;グローバル設定からZオフセットを読み込まない
 Don't reboot printer automatically;プリンタを自動再起動しない
 Don't save data for print recovery;印刷復旧データを保存しない
-Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};印刷前にベッドメッシュをテストしない // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};BED_MESH_CALIBRATEの代わりにKAMPを使用しない // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Don't test bed mesh before printing;印刷前にベッドメッシュをテストしない
+Don't use KAMP instead of BED_MESH_CALIBRATE;BED_MESH_CALIBRATEの代わりにKAMPを使用しない
 Don't use nozzle pre-purge;ノズル事前パージを使用しない
 Download archive in 'Configuration' -> 'mod_data' -> config.tar;'設定' -> 'mod_data' -> config.tarからアーカイブをダウンロード
 Enable backlight;バックライトを有効化
@@ -103,7 +103,7 @@ Extruder PID calibration;エクストルーダーPID校正
 Extruder temperature: {extruder_temp};エクストルーダー温度: {extruder_temp}
 Extrudes, if the extruder is hot enough;エクストルーダーが十分に加熱されていれば押し出し
 Extruding 10 cm of filament;フィラメントを10cm押し出し
-Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2;ウィンドウの閉じに失敗？高速閉じを使用: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2
+Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS;ウィンドウの閉じに失敗？高速閉じを使用: FAST_CLOSE_DIALOGS
 Fans control;ファン制御
 Far;遠い
 Filament change requested. Load new filament and click 'Resume'.;フィラメント交換要求。新しいフィラメントを装填し「再開」をクリック。
@@ -291,8 +291,8 @@ Switch web interface (fluidd/mainsail);ウェブインターフェースを切�
 System-wide parameters;システム全体のパラメータ
 temperature to;温度を
 Temporary ZMOD disable;ZMODを一時無効化
-Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};印刷前にベッドメッシュをテスト // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};印刷前にベッドメッシュをテスト+ KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing;印刷前にベッドメッシュをテスト
+Test bed mesh before printing + KAMP;印刷前にベッドメッシュをテスト+ KAMP
 Test EMMC;EMMCをテスト
 The printer was not homed (G28);プリンタがホームされていません（G28）
 This will take some time (3-5 minutes);数分かかります（3-5分）
@@ -303,10 +303,10 @@ Turn off native screen after (sec): {display_off_timeout};ネイティブ画面�
 Unload;アンロード
 Update MCU;MCUを更新
 Update printer via USB;USB経由でプリンタを更新
-Use adaptive mesh (KAMP) where possible instead of full bed mesh // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};可能な場合、フルベッドメッシュの代わりにアダプティブメッシュ（KAMP）を使用 // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Use adaptive mesh (KAMP) where possible instead of full bed mesh;可能な場合、フルベッドメッシュの代わりにアダプティブメッシュ（KAMP）を使用
 Use alternative camera;代替カメラを使用
 Use alternative NEW_SAVE_CONFIG;代替NEW_SAVE_CONFIGを使用
-Use bed leveling mode from native screen. // SAVE_ZMOD_DATA PRINT_LEVELING=1;ネイティブ画面のベッドレベリングモードを使用。// SAVE_ZMOD_DATA PRINT_LEVELING=1
+Use bed leveling mode from native screen.;ネイティブ画面のベッドレベリングモードを使用。
 Use Fluidd/Mainsail button settings from ZMOD;ZMODのFluidd/Mainsailボタン設定を使用
 Use nozzle pre-purge;ノズル事前パージを使用
 Use SCV = 5 for shaper graphs;シェイパーグラフにSCV = 5を使用
@@ -318,7 +318,7 @@ Using BED_MESH_CALIBRATE;BED_MESH_CALIBRATEを使用
 Using filament motion sensor;フィラメントモーションセンサーを使用
 Using filament presence sensor;フィラメント存在センサーを使用
 Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored;グローバルZオフセット制御を使用。SKIP_ZOFFSETとZ_OFFSETパラメータは無視
-Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};グローバル設定からKAMPを使用。// SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Using KAMP from global settings.;グローバル設定からKAMPを使用。
 Using KAMP;KAMPを使用
 Using Klipper 13;Klipper 13を使用
 Using native Klipper;ネイティブKlipperを使用
@@ -333,7 +333,7 @@ Weight at error: {we};エラー時の重量: {we}
 Work completed;作業完了
 Yes;はい
 You are NOT using native screen;ネイティブ画面を使用していません
-You are using KAMP. Recommended to use LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE;KAMPを使用しています。LINE_PURGEの使用を推奨: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE
+You are using KAMP. Recommended to use LINE_PURGE:;KAMPを使用しています。LINE_PURGEの使用を推奨:
 You are using native screen // DISPLAY_ON;ネイティブ画面を使用 // DISPLAY_ON
 You are using native screen;ネイティブ画面を使用中
 You are working WITHOUT native screen // DISPLAY_OFF GUPPY=0;ネイティブ画面なしで作業 // DISPLAY_OFF GUPPY=0

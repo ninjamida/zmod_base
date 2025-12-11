@@ -27,13 +27,13 @@ Bed screw calibration;打印床螺丝校准
 Bed temperature: {bed_temp};床温：{bed_temp}
 Before measurements, don't forget to clean the nozzle with CLEAR_NOZZLE macro;测量前请使用CLEAR_NOZZLE宏清理喷嘴
 Block Chinese clouds;阻止中国云服务
-Build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};每次打印时构建床面网格 // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Build bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};使用原生屏幕每次打印时构建床面网格 // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Build bed mesh on each print.;每次打印时构建床面网格
+Build bed mesh with native screen on each print.;使用原生屏幕每次打印时构建床面网格
 Building auto mesh (no loaded profile);正在构建auto网格（未加载配置文件）
-Building bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};每次打印时构建床面网格 // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Building bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};使用原生屏幕每次打印时构建床面网格 // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Building bed mesh on each print.;每次打印时构建床面网格
+Building bed mesh with native screen on each print.;使用原生屏幕每次打印时构建床面网格
 Building default mesh (FORCE_LEVELING={force_leveling});正在构建默认网格（FORCE_LEVELING={force_leveling}）
-Building full bed mesh. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};正在构建完整床面网格 // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Building full bed mesh.;正在构建完整床面网格
 Building {mesh} mesh (not found). Save it AFTER print!;正在构建{mesh}网格（未找到）。请在打印后保存！
 Cancellation sent to native screen;取消指令已发送至原生屏幕
 Cancel print;取消打印
@@ -63,7 +63,7 @@ Did you know you can enable KAMP globally?;您知道可以全局启用KAMP吗？
 Disable alternative camera;禁用替代摄像头
 Disable backlight;关闭背光
 Disable camera on printer screen;禁用打印机屏幕摄像头
-Disable check with: MESH // SAVE_ZMOD_DATA MESH_TEST=0;如需禁用检查：MESH // SAVE_ZMOD_DATA MESH_TEST=0
+Disable check with: MESH;如需禁用检查：MESH
 Disable circulation;禁用循环
 Disable filament sensor on native screen;禁用原生屏幕耗材传感器
 Disable heating and cooler;禁用加热和散热
@@ -71,7 +71,7 @@ Disable nozzle line purge;禁用喷嘴线性清洗
 Disable SSH port forwarding;禁用SSH端口转发
 Disable stock screen;禁用原生屏幕
 Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;若不完全理解调平、Z偏移和START/END宏，请勿禁用屏幕
-Don't build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};不要在每次打印时都建立床网 // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Don't build bed mesh on each print.;不要在每次打印时都建立床网
 Don't check file MD5 checksum;不检查文件MD5
 Don't close dialogs on native screen;不自动关闭原生屏幕对话框
 Don't disable motors automatically after print/cancel;打印/取消后不自动禁用电机
@@ -80,8 +80,8 @@ Don't fix E0017 error;不修复E0017错误
 Don't load Z-OFFSET from global settings;不从全局设置加载Z偏移
 Don't reboot printer automatically;禁用自动重启
 Don't save data for print recovery;不保存打印恢复数据
-Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};打印前不测试床面网格 // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};不使用KAMP替代BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Don't test bed mesh before printing;打印前不测试床面网格
+Don't use KAMP instead of BED_MESH_CALIBRATE;不使用KAMP替代BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;禁用喷嘴预清洗
 Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;在"配置"->"mod_data"->config.tar.gz下载存档
 Enable backlight;启用背光
@@ -103,7 +103,7 @@ Extruder PID calibration;挤出机PID校准
 Extruder temperature: {extruder_temp};喷头温度：{extruder_temp}
 Extrudes, if the extruder is hot enough;足够温度时挤出
 Extruding 10 cm of filament;正在挤出10厘米耗材
-Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2;无法关闭窗口？使用快速关闭：FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2
+Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS;无法关闭窗口？使用快速关闭：FAST_CLOSE_DIALOGS
 Fans control;风扇控制
 Far;远端
 Filament change requested. Load new filament and click 'Resume'.;请求更换耗材。加载新耗材并点击"恢复"
@@ -291,8 +291,8 @@ Switch web interface (fluidd/mainsail);切换网页界面（fluidd/mainsail）
 System-wide parameters;全局参数
 temperature to;温度至
 Temporary ZMOD disable;临时禁用ZMOD
-Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};打印前测试床面网格 // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};打印前测试床面网格 + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing;打印前测试床面网格
+Test bed mesh before printing + KAMP;打印前测试床面网格 + KAMP
 Test EMMC;测试EMMC
 The printer was not homed (G28);打印机未归零（G28）
 This will take some time (3-5 minutes);需要一些时间（3-5分钟）
@@ -303,10 +303,10 @@ Turn off native screen after (sec): {display_off_timeout};原生屏幕在{displa
 Unload;卸载
 Update MCU;更新MCU
 Update printer via USB;通过USB更新打印机
-Use adaptive mesh (KAMP) where possible instead of full bed mesh // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};尽可能使用自适应网格（KAMP）代替完整床面网格 // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Use adaptive mesh (KAMP) where possible instead of full bed mesh;尽可能使用自适应网格（KAMP）代替完整床面网格
 Use alternative camera;使用替代摄像头
 Use alternative NEW_SAVE_CONFIG;使用替代NEW_SAVE_CONFIG
-Use bed leveling mode from native screen. // SAVE_ZMOD_DATA PRINT_LEVELING=1;使用原生屏幕调平模式 // SAVE_ZMOD_DATA PRINT_LEVELING=1
+Use bed leveling mode from native screen.;使用原生屏幕调平模式
 Use Fluidd/Mainsail button settings from ZMOD;使用ZMOD的Fluidd/Mainsail按钮设置
 Use nozzle pre-purge;使用喷嘴预清洗
 Use SCV = 5 for shaper graphs;使用SCV=5生成整形器图表
@@ -318,7 +318,7 @@ Using BED_MESH_CALIBRATE;正在使用BED_MESH_CALIBRATE
 Using filament motion sensor;正在使用耗材运动传感器
 Using filament presence sensor;正在使用耗材存在传感器
 Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored;使用全局Z偏移控制。SKIP_ZOFFSET和Z_OFFSET参数已忽略
-Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};使用全局设置中的KAMP // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Using KAMP from global settings.;使用全局设置中的KAMP
 Using KAMP;正在使用KAMP
 Using Klipper 13;正在使用Klipper 13
 Using native Klipper;正在使用原生Klipper
@@ -333,7 +333,7 @@ Weight at error: {we};错误时重量：{we}
 Work completed;工作完成
 Yes;是
 You are NOT using native screen;您未使用原生屏幕
-You are using KAMP. Recommended to use LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE;您正在使用KAMP。建议使用LINE_PURGE：// SAVE_ZMOD_DATA CLEAR=LINE_PURGE
+You are using KAMP. Recommended to use LINE_PURGE:;您正在使用KAMP。建议使用LINE_PURGE：
 You are using native screen // DISPLAY_ON;您正在使用原生屏幕 // DISPLAY_ON
 You are using native screen;您正在使用原生屏幕
 You are working WITHOUT native screen // DISPLAY_OFF GUPPY=0;您未使用原生屏幕 // DISPLAY_OFF GUPPY=0

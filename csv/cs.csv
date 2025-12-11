@@ -27,13 +27,13 @@ Bed screw calibration;Kalibrace šroubů podložky
 Bed temperature: {bed_temp};Teplota podložky: {bed_temp}
 Before measurements, don't forget to clean the nozzle with CLEAR_NOZZLE macro;Před měřením nezapomeňte vyčistit trysku makrem CLEAR_NOZZLE
 Block Chinese clouds;Blokovat čínské cloudy
-Build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Vytvářet síť podložky při každém tisku. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Build bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Vytvářet síť podložky s nativním displejem při každém tisku. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Build bed mesh on each print.;Vytvářet síť podložky při každém tisku.
+Build bed mesh with native screen on each print.;Vytvářet síť podložky s nativním displejem při každém tisku.
 Building auto mesh (no loaded profile);Vytváření automatické sítě (žádný načtený profil)
-Building bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Vytváření sítě podložky při každém tisku. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Building bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Vytváření sítě podložky s nativním displejem při každém tisku. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Building bed mesh on each print.;Vytváření sítě podložky při každém tisku.
+Building bed mesh with native screen on each print.;Vytváření sítě podložky s nativním displejem při každém tisku.
 Building default mesh (FORCE_LEVELING={force_leveling});Vytváření výchozí sítě (FORCE_LEVELING={force_leveling})
-Building full bed mesh. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Vytváření plné sítě podložky. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Building full bed mesh.;Vytváření plné sítě podložky.
 Building {mesh} mesh (not found). Save it AFTER print!;Vytváření sítě {mesh} (nenalezeno). Uložte ji AŽ PO tisku!
 Cancellation sent to native screen;Storno odesláno na nativní displej
 Cancel print;Zrušit tisk
@@ -63,7 +63,7 @@ Did you know you can enable KAMP globally?;Věděli jste, že můžete povolit K
 Disable alternative camera;Zakázat alternativní kameru
 Disable backlight;Vypnout podsvícení
 Disable camera on printer screen;Vypnout kameru na displeji tiskárny
-Disable check with: MESH // SAVE_ZMOD_DATA MESH_TEST=0;Zakázat kontrolu pomocí: MESH // SAVE_ZMOD_DATA MESH_TEST=0
+Disable check with: MESH;Zakázat kontrolu pomocí: MESH
 Disable circulation;Vypnout cirkulaci
 Disable filament sensor on native screen;Vypnout senzor filamentu na nativním displeji
 Disable heating and cooler;Vypnout ohřev a chlazení
@@ -71,7 +71,7 @@ Disable nozzle line purge;Vypnout čištění trysky linií
 Disable SSH port forwarding;Zakázat SSH port forwarding
 Disable stock screen;Vypnout standardní displej
 Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;Nevypínejte displej, pokud plně nerozumíte nivelaci podložky, z-offsetu a makrům START_PRINT/END_PRINT
-Don't build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Nevytvářet síť podložky při každém tisku // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Don't build bed mesh on each print.;Nevytvářet síť podložky při každém tisku
 Don't check file MD5 checksum;Nekontrolovat MD5 kontrolní součet souboru
 Don't close dialogs on native screen;Nezavírat dialogy na nativním displeji
 Don't disable motors automatically after print/cancel;Nevypínat motory automaticky po tisku/stornu
@@ -80,8 +80,8 @@ Don't fix E0017 error;Neopravovat chybu E0017
 Don't load Z-OFFSET from global settings;Nenačítat Z-OFFSET z globálních nastavení
 Don't reboot printer automatically;Nerestartovat tiskárnu automaticky
 Don't save data for print recovery;Neukládat data pro obnovu tisku
-Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Netestovat síť podložky před tiskem // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Nepoužívat KAMP místo BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Don't test bed mesh before printing;Netestovat síť podložky před tiskem
+Don't use KAMP instead of BED_MESH_CALIBRATE;Nepoužívat KAMP místo BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;Nepoužívat předčištění trysky
 Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Stáhnout archiv v 'Configuration' -> 'mod_data' -> config.tar.gz
 Enable backlight;Zapnout podsvícení
@@ -103,7 +103,7 @@ Extruder PID calibration;Kalibrace PID extruderu
 Extruder temperature: {extruder_temp};Teplota extruderu: {extruder_temp}
 Extrudes, if the extruder is hot enough;Vytlačuje, pokud je extruder dostatečně horký
 Extruding 10 cm of filament;Vytlačování 10 cm filamentu
-Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2;Nepodařilo se zavřít okna? Použijte rychlé zavření: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2
+Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS;Nepodařilo se zavřít okna? Použijte rychlé zavření: FAST_CLOSE_DIALOGS
 Fans control;Ovládání ventilátorů
 Far;Vzdálený
 Filament change requested. Load new filament and click 'Resume'.;Vyžádána výměna filamentu. Načtěte nový filament a klikněte 'Pokračovat'.
@@ -291,8 +291,8 @@ Switch web interface (fluidd/mainsail);Přepnout webové rozhraní (fluidd/mains
 System-wide parameters;Systémové parametry
 temperature to;teplotu na
 Temporary ZMOD disable;Dočasné vypnutí ZMOD
-Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Testovat síť podložky před tiskem // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Testovat síť podložky před tiskem + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing;Testovat síť podložky před tiskem
+Test bed mesh before printing + KAMP;Testovat síť podložky před tiskem + KAMP
 Test EMMC;Testovat EMMC
 The printer was not homed (G28);Tiskárna nebyla homována (G28)
 This will take some time (3-5 minutes);Toto bude chvíli trvat (3-5 minut)
@@ -303,10 +303,10 @@ Turn off native screen after (sec): {display_off_timeout};Vypnout nativní displ
 Unload;Vylodit
 Update MCU;Aktualizovat MCU
 Update printer via USB;Aktualizovat tiskárnu přes USB
-Use adaptive mesh (KAMP) where possible instead of full bed mesh // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Použít adaptivní síť (KAMP) kde je to možné místo plné sítě podložky // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Use adaptive mesh (KAMP) where possible instead of full bed mesh;Použít adaptivní síť (KAMP) kde je to možné místo plné sítě podložky
 Use alternative camera;Použít alternativní kameru
 Use alternative NEW_SAVE_CONFIG;Použít alternativní NEW_SAVE_CONFIG
-Use bed leveling mode from native screen. // SAVE_ZMOD_DATA PRINT_LEVELING=1;Použít režim nivelace podložky z nativního displeje. // SAVE_ZMOD_DATA PRINT_LEVELING=1
+Use bed leveling mode from native screen.;Použít režim nivelace podložky z nativního displeje.
 Use Fluidd/Mainsail button settings from ZMOD;Použít nastavení tlačítek Fluidd/Mainsail ze ZMOD
 Use nozzle pre-purge;Použít předčištění trysky
 Use SCV = 5 for shaper graphs;Použít SCV = 5 pro grafy shaperu
@@ -318,7 +318,7 @@ Using BED_MESH_CALIBRATE;Používá se BED_MESH_CALIBRATE
 Using filament motion sensor;Používá se senzor pohybu filamentu
 Using filament presence sensor;Používá se senzor přítomnosti filamentu
 Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored;Používá se globální ovládání Z-Offset. Parametry SKIP_ZOFFSET a Z_OFFSET ignorovány
-Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Používá se KAMP z globálních nastavení. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Using KAMP from global settings.;Používá se KAMP z globálních nastavení.
 Using KAMP;Používá se KAMP
 Using Klipper 13;Používá se Klipper 13
 Using native Klipper;Používá se nativní Klipper
@@ -333,7 +333,7 @@ Weight at error: {we};Hmotnost při chybě: {we}
 Work completed;Práce dokončena
 Yes;Ano
 You are NOT using native screen;NEPoužíváte nativní displej
-You are using KAMP. Recommended to use LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE;Používáte KAMP. Doporučeno použít LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE
+You are using KAMP. Recommended to use LINE_PURGE:;Používáte KAMP. Doporučeno použít LINE_PURGE:
 You are using native screen // DISPLAY_ON;Používáte nativní displej // DISPLAY_ON
 You are using native screen;Používáte nativní displej
 You are working WITHOUT native screen // DISPLAY_OFF GUPPY=0;Pracujete BEZ nativního displeje // DISPLAY_OFF GUPPY=0

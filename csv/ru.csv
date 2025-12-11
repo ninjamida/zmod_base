@@ -27,13 +27,13 @@ Bed screw calibration;Калибровка винтов стола
 Bed temperature: {bed_temp};Температура стола: {bed_temp}
 Before measurements, don't forget to clean the nozzle with CLEAR_NOZZLE macro;До измерений, не забудьте почистить сопло макросом CLEAR_NOZZLE
 Block Chinese clouds;Запретить китайские облака
-Build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};При каждой печати строить карту стола. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Build bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};При каждой печати строить карту стола средствами родного экрана. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Build bed mesh on each print.;При каждой печати строить карту стола.
+Build bed mesh with native screen on each print.;При каждой печати строить карту стола средствами родного экрана.
 Building auto mesh (no loaded profile);Запущено построение карты стола auto, т.к. не загружена ни одна карта
-Building bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};При каждой печати строить карту стола. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Building bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};При каждой печати строить карту стола средствами родного экрана. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Building bed mesh on each print.;При каждой печати строить карту стола.
+Building bed mesh with native screen on each print.;При каждой печати строить карту стола средствами родного экрана.
 Building default mesh (FORCE_LEVELING={force_leveling});Запущено построение карты стола default (FORCE_LEVELING={force_leveling})
-Building full bed mesh. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Строится полная карта стола. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Building full bed mesh.;Строится полная карта стола.
 Building {mesh} mesh (not found). Save it AFTER print!;Запущено построение карты стола {mesh}, т.к. она не найдена. Сохраните ее ПОСЛЕ печати
 Cancellation sent to native screen;Отмена отправлена на родной экран
 Cancel print;Отменить печать
@@ -63,7 +63,7 @@ Did you know you can enable KAMP globally?;А вы знали, что можно
 Disable alternative camera;Отключить альтернативную реализацию камеры
 Disable backlight;Выключить подсветку
 Disable camera on printer screen;Отключите камеру на экране принтера
-Disable check with: MESH // SAVE_ZMOD_DATA MESH_TEST=0;Если считаете что сообщение ошибочно, отключите проверку MESH // SAVE_ZMOD_DATA MESH_TEST=0
+Disable check with: MESH;Если считаете что сообщение ошибочно, отключите проверку MESH
 Disable circulation;Выключить циркуляцию
 Disable filament sensor on native screen;Отключите датчик филамента на родном экране
 Disable heating and cooler;Отключить нагрев и кулер
@@ -71,7 +71,7 @@ Disable nozzle line purge;Выключить очистку сопла лини�
 Disable SSH port forwarding;Отключить проброс портов SSH
 Disable stock screen;Выключить стандартный экран
 Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;Не отключайте экран, если вы четко не понимаете как работает карта стола, z-offset и макросы START_PRINT и END_PRINT
-Don't build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Не строить карту стола при каждой печати // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Don't build bed mesh on each print.;Не строить карту стола при каждой печати
 Don't check file MD5 checksum;Не проверять MD5 сумму файла
 Don't close dialogs on native screen;Не закрывать диалоги на родном экране
 Don't disable motors automatically after print/cancel;Не выключать моторы автоматически после печати/отмены печати
@@ -80,8 +80,8 @@ Don't fix E0017 error;Не исправлять ошибку E0017
 Don't load Z-OFFSET from global settings;Не загружать Z-OFFSET из глобальных параметров
 Don't reboot printer automatically;Не перезапускать принтер автоматически
 Don't save data for print recovery;Не сохранять данные для восстановления печати
-Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Не тестировать карту стола перед печатью // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Не использоваить KAMP вместо BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Don't test bed mesh before printing;Не тестировать карту стола перед печатью
+Don't use KAMP instead of BED_MESH_CALIBRATE;Не использоваить KAMP вместо BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;Не использовать предочистку сопла
 Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Скачать архив можно в 'Конфигурация' -> 'mod_data' -> config.tar.gz
 Enable backlight;Включить подсветку
@@ -103,7 +103,7 @@ Extruder PID calibration;Калибровка PID экструдера
 Extruder temperature: {extruder_temp};Температура экструдера: {extruder_temp}
 Extrudes, if the extruder is hot enough;Экструзия, если экструдер достаточно горячий
 Extruding 10 cm of filament;Пропускаем 10 см пластика
-Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2;Не сработало закрытие окон? Используйте быстрое закрытие окон FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2
+Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS;Не сработало закрытие окон? Используйте быстрое закрытие окон FAST_CLOSE_DIALOGS
 Fans control;Управление вентиляторами
 Far;Дальний
 Filament change requested. Load new filament and click 'Resume'.;Запрошена замена нити. Загрузите новую нить и нажмите «возобновить».
@@ -291,8 +291,8 @@ Switch web interface (fluidd/mainsail);Сменить веб интерфейс 
 System-wide parameters;Общесистемные параметры
 temperature to;температуру до
 Temporary ZMOD disable;Временно отключение ZMOD
-Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Тестировать карту стола перед печатью // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Тестировать карту стола перед печатью + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing;Тестировать карту стола перед печатью
+Test bed mesh before printing + KAMP;Тестировать карту стола перед печатью + KAMP
 Test EMMC;Протестировать EMMC
 The printer was not homed (G28);Принтер не был дома (G28)
 This will take some time (3-5 minutes);Это займет немного времени (3-5 минут)
@@ -303,10 +303,10 @@ Turn off native screen after (sec): {display_off_timeout};Выключать р�
 Unload;Выгрузить
 Update MCU;Обновить MCU
 Update printer via USB;Обновить принтер через флешку
-Use adaptive mesh (KAMP) where possible instead of full bed mesh // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Где возможно использовать адаптивную карту стола(KAMP), вместо полной карты стола // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Use adaptive mesh (KAMP) where possible instead of full bed mesh;Где возможно использовать адаптивную карту стола(KAMP), вместо полной карты стола
 Use alternative camera;Использовать альтернативную реализацию камеры
 Use alternative NEW_SAVE_CONFIG;Использовать альтернативный NEW_SAVE_CONFIG
-Use bed leveling mode from native screen. // SAVE_ZMOD_DATA PRINT_LEVELING=1;Используйте режим снятия карты стола с родного экрана. // SAVE_ZMOD_DATA PRINT_LEVELING=1
+Use bed leveling mode from native screen.;Используйте режим снятия карты стола с родного экрана.
 Use Fluidd/Mainsail button settings from ZMOD;Использовать настройки кнопок Fluidd/Mainsail из ZMOD
 Use nozzle pre-purge;Использовать предочистку сопла
 Use SCV = 5 for shaper graphs;Использовать SCV = 5 при построении графиков шейперов
@@ -318,7 +318,7 @@ Using BED_MESH_CALIBRATE;Использую BED_MESH_CALIBRATE
 Using filament motion sensor;Используется датчик движения филамента
 Using filament presence sensor;Используется датчик наличия филамента
 Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored;Используется глобальное управление Z-Offset. Параметры SKIP_ZOFFSET и Z_OFFSET игнорируются
-Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Использую KAMP из глобальных параметров. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Using KAMP from global settings.;Использую KAMP из глобальных параметров.
 Using KAMP;Использую KAMP
 Using Klipper 13;Используется Klipper 13
 Using native Klipper;Используется родной Klipper
@@ -333,7 +333,7 @@ Weight at error: {we};Вес при ошибке: {we}
 Work completed;Работа завершена
 Yes;Да
 You are NOT using native screen;Вы работаете БЕЗ родного экрана
-You are using KAMP. Recommended to use LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE;У вас используется KAMP. Рекомендуется использовать линию очистки LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE
+You are using KAMP. Recommended to use LINE_PURGE:;У вас используется KAMP. Рекомендуется использовать линию очистки LINE_PURGE:
 You are using native screen // DISPLAY_ON;Вы работаете с родным экраном // DISPLAY_ON
 You are using native screen;Вы работаете с родным экраном
 You are working WITHOUT native screen // DISPLAY_OFF GUPPY=0;Вы работаете БЕЗ родного экрана // DISPLAY_OFF GUPPY=0

@@ -27,13 +27,13 @@ Bed screw calibration;Bed screw calibration
 Bed temperature: {bed_temp};Bed temperature: {bed_temp}
 Before measurements, don't forget to clean the nozzle with CLEAR_NOZZLE macro;Before measurements, don't forget to clean the nozzle with CLEAR_NOZZLE macro
 Block Chinese clouds;Block Chinese clouds
-Build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Build bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Build bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Build bed mesh on each print.;Build bed mesh on each print.
+Build bed mesh with native screen on each print.;Build bed mesh with native screen on each print.
 Building auto mesh (no loaded profile);Building auto mesh (no loaded profile)
-Building bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Building bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
-Building bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Building bed mesh with native screen on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Building bed mesh on each print.;Building bed mesh on each print.
+Building bed mesh with native screen on each print.;Building bed mesh with native screen on each print.
 Building default mesh (FORCE_LEVELING={force_leveling});Building default mesh (FORCE_LEVELING={force_leveling})
-Building full bed mesh. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Building full bed mesh. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Building full bed mesh.;Building full bed mesh.
 Building {mesh} mesh (not found). Save it AFTER print!;Building {mesh} mesh (not found). Save it AFTER print!
 Cancellation sent to native screen;Cancellation sent to native screen
 Cancel print;Cancel print
@@ -63,7 +63,7 @@ Did you know you can enable KAMP globally?;Did you know you can enable KAMP glob
 Disable alternative camera;Disable alternative camera
 Disable backlight;Disable backlight
 Disable camera on printer screen;Disable camera on printer screen
-Disable check with: MESH // SAVE_ZMOD_DATA MESH_TEST=0;Disable check with: MESH // SAVE_ZMOD_DATA MESH_TEST=0
+Disable check with: MESH;Disable check with: MESH
 Disable circulation;Disable circulation
 Disable filament sensor on native screen;Disable filament sensor on native screen
 Disable heating and cooler;Disable heating and cooler
@@ -71,7 +71,7 @@ Disable nozzle line purge;Disable nozzle line purge
 Disable SSH port forwarding;Disable SSH port forwarding
 Disable stock screen;Disable stock screen
 Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros
-Don't build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling};Don't build bed mesh on each print. // SAVE_ZMOD_DATA PRINT_LEVELING={zprint_leveling}
+Don't build bed mesh on each print.;Don't build bed mesh on each print.
 Don't check file MD5 checksum;Don't check file MD5 checksum
 Don't close dialogs on native screen;Don't close dialogs on native screen
 Don't disable motors automatically after print/cancel;Don't disable motors automatically after print/cancel
@@ -80,8 +80,8 @@ Don't fix E0017 error;Don't fix E0017 error
 Don't load Z-OFFSET from global settings;Don't load Z-OFFSET from global settings
 Don't reboot printer automatically;Don't reboot printer automatically
 Don't save data for print recovery;Don't save data for print recovery
-Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Don't test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Don't use KAMP instead of BED_MESH_CALIBRATE // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Don't test bed mesh before printing;Don't test bed mesh before printing
+Don't use KAMP instead of BED_MESH_CALIBRATE;Don't use KAMP instead of BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;Don't use nozzle pre-purge
 Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz
 Enable backlight;Enable backlight
@@ -103,7 +103,7 @@ Extruder PID calibration;Extruder PID calibration
 Extruder temperature: {extruder_temp};Extruder temperature: {extruder_temp}
 Extrudes, if the extruder is hot enough;Extrudes, if the extruder is hot enough
 Extruding 10 cm of filament;Extruding 10 cm of filament
-Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2;Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS // SAVE_ZMOD_DATA CLOSE_DIALOGS=2
+Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS;Failed to close windows? Use fast close: FAST_CLOSE_DIALOGS
 Fans control;Fans control
 Far;Far
 Filament change requested. Load new filament and click 'Resume'.;Filament change requested. Load new filament and click 'Resume'.
@@ -291,8 +291,8 @@ Switch web interface (fluidd/mainsail);Switch web interface (fluidd/mainsail)
 System-wide parameters;System-wide parameters
 temperature to;temperature to
 Temporary ZMOD disable;Temporary ZMOD disable
-Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Test bed mesh before printing // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
-Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test};Test bed mesh before printing + KAMP // SAVE_ZMOD_DATA MESH_TEST={zmesh_test}
+Test bed mesh before printing;Test bed mesh before printing
+Test bed mesh before printing + KAMP;Test bed mesh before printing + KAMP
 Test EMMC;Test EMMC
 The printer was not homed (G28);The printer was not homed (G28)
 This will take some time (3-5 minutes);This will take some time (3-5 minutes)
@@ -303,10 +303,10 @@ Turn off native screen after (sec): {display_off_timeout};Turn off native screen
 Unload;Unload
 Update MCU;Update MCU
 Update printer via USB;Update printer via USB
-Use adaptive mesh (KAMP) where possible instead of full bed mesh // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Use adaptive mesh (KAMP) where possible instead of full bed mesh // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Use adaptive mesh (KAMP) where possible instead of full bed mesh;Use adaptive mesh (KAMP) where possible instead of full bed mesh
 Use alternative camera;Use alternative camera
 Use alternative NEW_SAVE_CONFIG;Use alternative NEW_SAVE_CONFIG
-Use bed leveling mode from native screen. // SAVE_ZMOD_DATA PRINT_LEVELING=1;Use bed leveling mode from native screen. // SAVE_ZMOD_DATA PRINT_LEVELING=1
+Use bed leveling mode from native screen.;Use bed leveling mode from native screen.
 Use Fluidd/Mainsail button settings from ZMOD;Use Fluidd/Mainsail button settings from ZMOD
 Use nozzle pre-purge;Use nozzle pre-purge
 Use SCV = 5 for shaper graphs;Use SCV = 5 for shaper graphs
@@ -318,7 +318,7 @@ Using BED_MESH_CALIBRATE;Using BED_MESH_CALIBRATE
 Using filament motion sensor;Using filament motion sensor
 Using filament presence sensor;Using filament presence sensor
 Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored;Using global Z-Offset control. SKIP_ZOFFSET and Z_OFFSET parameters ignored
-Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp};Using KAMP from global settings. // SAVE_ZMOD_DATA USE_KAMP={zuse_kamp}
+Using KAMP from global settings.;Using KAMP from global settings.
 Using KAMP;Using KAMP
 Using Klipper 13;Using Klipper 13
 Using native Klipper;Using native Klipper
@@ -333,7 +333,7 @@ Weight at error: {we};Weight at error: {we}
 Work completed;Work completed
 Yes;Yes
 You are NOT using native screen;You are NOT using native screen
-You are using KAMP. Recommended to use LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE;You are using KAMP. Recommended to use LINE_PURGE: // SAVE_ZMOD_DATA CLEAR=LINE_PURGE
+You are using KAMP. Recommended to use LINE_PURGE:;You are using KAMP. Recommended to use LINE_PURGE:
 You are using native screen // DISPLAY_ON;You are using native screen // DISPLAY_ON
 You are using native screen;You are using native screen
 You are working WITHOUT native screen // DISPLAY_OFF GUPPY=0;You are working WITHOUT native screen // DISPLAY_OFF GUPPY=0
