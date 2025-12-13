@@ -387,3 +387,6 @@ You can browse and change global parameters if necessary. https://github.com/ghz
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Abilitare il plugin delle raccomandazioni? Permette di configurare le impostazioni di base con un clic.
 Next;Avanti
 Z-offset loaded from native screen;Z-offset caricato dallo schermo nativo
+Did you know that you can access your printer remotely using zmod.link?;Sapevi che puoi accedere alla tua stampante in remoto usando zmod.link?
+Do not save the state of filament sensors;Non salvare lo stato dei sensori del filamento
+Save the state of filament sensors;Salvare lo stato dei sensori del filamento

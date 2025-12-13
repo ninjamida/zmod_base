@@ -387,4 +387,6 @@ You can browse and change global parameters if necessary. https://github.com/ghz
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Öneri eklentisini etkinleştir? Temel ayarları tek tıklamayla yapılandırmanızı sağlar.
 Next;Sonraki
 Z-offset loaded from native screen;Z-offset yerel ekrandan yüklendi
-
+Did you know that you can access your printer remotely using zmod.link?;Yazıcınıza zmod.link kullanarak uzaktan erişebileceğinizi biliyor muydunuz?
+Do not save the state of filament sensors;Filament sensörlerinin durumunu kaydetme
+Save the state of filament sensors;Filament sensörlerinin durumunu kaydet

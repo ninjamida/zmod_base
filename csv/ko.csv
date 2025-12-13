@@ -387,3 +387,6 @@ You can browse and change global parameters if necessary. https://github.com/ghz
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;추천 플러그인을 활성화하시겠습니까? 기본 설정을 한 번의 클릭으로 구성할 수 있습니다.
 Next;다음
 Z-offset loaded from native screen;기본 화면에서 Z-오프셋 로드됨
+Did you know that you can access your printer remotely using zmod.link?;zmod.link를 사용하여 프린터에 원격으로 접속할 수 있다는 것을 알고 계셨나요?
+Do not save the state of filament sensors;필라멘트 센서 상태 저장하지 않음
+Save the state of filament sensors;필라멘트 센서 상태 저장
