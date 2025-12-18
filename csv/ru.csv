@@ -190,8 +190,8 @@ OK: Probe within mesh extremes;OK: Probe в пределах экстремум�
 OK;Ок
 OS check;Проверка операционной системы
 Override to get pause_next_layer and pause_at_layer functions;Перезаписать, чтобы получить функцию pause_next_layer и pause_at_layer
-Parameters used at print end and cancellation [END_PRINT];Параметры используемые при окончании и отмене печати [END_PRINT]
-Parameters used at print start and bed leveling [START_PRINT];Параметры используемые при начале печати, построении карты стола [START_PRINT]
+Parameters used at print end and cancellation [END_PRINT];Текущие параметры используемые при окончании печати [END_PRINT]
+Parameters used at print start and bed leveling [START_PRINT];Текущие параметры используемые при начале печати [START_PRINT]
 Parameter;Параметр
 Pause and filament change;Пауза и смена филамента
 Paused: {filename}, print recovery impossible;Пауза: {filename}, восстановление печати невозможно
@@ -288,7 +288,7 @@ SWAP used on EMMC;SWAP используется на EMMC
 SWAP used on USB FLASH;SWAP используется на USB FLASH
 Switch to console to view recovery stages;Переключитесь в консоль, чтобы посмотреть этапы восстановления
 Switch web interface (fluidd/mainsail);Сменить веб интерфейс fluidd/mainsail
-System-wide parameters;Общесистемные параметры
+System-wide parameters;Текущие общиее параметры
 temperature to;температуру до
 Temporary ZMOD disable;Временно отключение ZMOD
 Test bed mesh before printing;Тестировать карту стола перед печатью
