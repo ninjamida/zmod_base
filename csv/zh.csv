@@ -390,3 +390,5 @@ Z-offset loaded from native screen;Z偏移量已从原生屏幕加载
 Did you know that you can access your printer remotely using zmod.link?;您知道可以通过 zmod.link 远程访问您的打印机吗？
 Do not save the state of filament sensors;不保存耗材传感器状态
 Save the state of filament sensors;保存耗材传感器状态
+Z-Offset saved in global settings;Z-Offset 已保存到全局设置
+Z-Offset saved in the native screen;Z-Offset 已保存到原生屏幕

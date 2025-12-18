@@ -390,3 +390,5 @@ Z-offset loaded from native screen;ネイティブ画面からZオフセット�
 Did you know that you can access your printer remotely using zmod.link?;zmod.linkを使用してプリンターにリモートアクセスできることをご存知ですか？
 Do not save the state of filament sensors;フィラメントセンサーの状態を保存しない
 Save the state of filament sensors;フィラメントセンサーの状態を保存する
+Z-Offset saved in global settings;Z-Offsetがグローバル設定に保存されました
+Z-Offset saved in the native screen;Z-Offsetがネイティブ画面に保存されました

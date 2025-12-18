@@ -390,3 +390,5 @@ Z-offset loaded from native screen;Z-offset yerel ekrandan yüklendi
 Did you know that you can access your printer remotely using zmod.link?;Yazıcınıza zmod.link kullanarak uzaktan erişebileceğinizi biliyor muydunuz?
 Do not save the state of filament sensors;Filament sensörlerinin durumunu kaydetme
 Save the state of filament sensors;Filament sensörlerinin durumunu kaydet
+Z-Offset saved in global settings;Z-Offset genel ayarlara kaydedildi
+Z-Offset saved in the native screen;Z-Offset yerel ekrana kaydedildi

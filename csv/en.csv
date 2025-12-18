@@ -390,3 +390,5 @@ Z-offset loaded from native screen;Z-offset loaded from native screen
 Did you know that you can access your printer remotely using zmod.link?;Did you know that you can access your printer remotely using zmod.link?
 Do not save the state of filament sensors;Do not save the state of filament sensors
 Save the state of filament sensors;Save the state of filament sensors
+Z-Offset saved in global settings;Z-Offset saved in global settings
+Z-Offset saved in the native screen;Z-Offset saved in the native screen
