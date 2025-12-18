@@ -392,3 +392,6 @@ Do not save the state of filament sensors;不保存耗材传感器状态
 Save the state of filament sensors;保存耗材传感器状态
 Z-Offset saved in global settings;Z-Offset 已保存到全局设置
 Z-Offset saved in the native screen;Z-Offset 已保存到原生屏幕
+Setting Z-offset {zoffset};Z-offset {zoffset} ayarlanıyor
+Using global Z-Offset control. Z_OFFSET parameter ignored;Genel Z-Offset kontrolü kullanılıyor. Z_OFFSET parametresi yok sayılıyor
+Z-offset setup skipped;Z-offset kurulumu atlandı

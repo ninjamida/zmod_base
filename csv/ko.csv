@@ -392,3 +392,6 @@ Do not save the state of filament sensors;필라멘트 센서 상태 저장하�
 Save the state of filament sensors;필라멘트 센서 상태 저장
 Z-Offset saved in global settings;Z-Offset가 전역 설정에 저장됨
 Z-Offset saved in the native screen;Z-Offset가 기본 화면에 저장됨
+Setting Z-offset {zoffset};Z-오프셋 {zoffset} 설정 중
+Using global Z-Offset control. Z_OFFSET parameter ignored;전역 Z-오프셋 제어를 사용 중입니다. Z_OFFSET 매개변수가 무시됩니다
+Z-offset setup skipped;Z-오프셋 설정 건너뜀

@@ -392,3 +392,6 @@ Do not save the state of filament sensors;Neukládat stav filamentových senzor�
 Save the state of filament sensors;Ukládat stav filamentových senzorů
 Z-Offset saved in global settings;Z-Offset uložený v globálních nastaveních
 Z-Offset saved in the native screen;Z-Offset uložený v nativním displeji
+Setting Z-offset {zoffset};Nastavení Z-offset {zoffset}
+Using global Z-Offset control. Z_OFFSET parameter ignored;Používá se globální ovládání Z-Offset. Parametr Z_OFFSET je ignorován
+Z-offset setup skipped;Nastavení Z-offset přeskočeno

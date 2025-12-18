@@ -392,3 +392,6 @@ Do not save the state of filament sensors;Filament sensörlerinin durumunu kayde
 Save the state of filament sensors;Filament sensörlerinin durumunu kaydet
 Z-Offset saved in global settings;Z-Offset genel ayarlara kaydedildi
 Z-Offset saved in the native screen;Z-Offset yerel ekrana kaydedildi
+Setting Z-offset {zoffset};Z-offset {zoffset} ayarlanıyor
+Using global Z-Offset control. Z_OFFSET parameter ignored;Genel Z-Offset kontrolü kullanılıyor. Z_OFFSET parametresi yok sayılıyor
+Z-offset setup skipped;Z-offset kurulumu atlandı

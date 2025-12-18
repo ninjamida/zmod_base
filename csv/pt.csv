@@ -392,3 +392,6 @@ Do not save the state of filament sensors;Não guardar o estado dos sensores de 
 Save the state of filament sensors;Guardar o estado dos sensores de filamento
 Z-Offset saved in global settings;Z-Offset guardado nas definições globais
 Z-Offset saved in the native screen;Z-Offset guardado no ecrã nativo
+Setting Z-offset {zoffset};A definir Z-offset {zoffset}
+Using global Z-Offset control. Z_OFFSET parameter ignored;A usar controlo global Z-Offset. O parâmetro Z_OFFSET é ignorado
+Z-offset setup skipped;Configuração do Z-offset ignorada
