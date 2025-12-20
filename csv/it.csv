@@ -395,3 +395,9 @@ Z-Offset saved in the native screen;Z-Offset salvato nello schermo nativo
 Setting Z-offset {zoffset};Impostazione Z-offset {zoffset}
 Using global Z-Offset control. Z_OFFSET parameter ignored;Utilizzo del controllo Z-Offset globale. Il parametro Z_OFFSET viene ignorato
 Z-offset setup skipped;Impostazione Z-offset saltata
+The printer has started printing the file;La stampante ha iniziato a stampare il file
+The printer has finished printing the file;La stampante ha terminato di stampare il file
+Error;Errore
+Printing canceled;Stampa annullata
+Pause;Pausa
+Resume printing;Riprendi stampa

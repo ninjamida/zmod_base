@@ -392,3 +392,9 @@ Do not save the state of filament sensors;Не сохранять состоян
 Save the state of filament sensors;Сохранять состояние датчиков филамента
 Z-Offset saved in global settings;Z-Offset сохранённый в глобальных настройках
 Z-Offset saved in the native screen;Z-Offset сохранённый в родном экране
+The printer has started printing the file;Принтер начал печатать файл
+The printer has finished printing the file;Принтер закончил печатать файл
+Error;Ошибка
+Printing canceled;Печать отменена
+Pause;Пауза
+Resume printing;Продолжение печати

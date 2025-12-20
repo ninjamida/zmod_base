@@ -395,3 +395,9 @@ Z-Offset saved in the native screen;Z-Offset 已保存到原生屏幕
 Setting Z-offset {zoffset};Z-offset {zoffset} ayarlanıyor
 Using global Z-Offset control. Z_OFFSET parameter ignored;Genel Z-Offset kontrolü kullanılıyor. Z_OFFSET parametresi yok sayılıyor
 Z-offset setup skipped;Z-offset kurulumu atlandı
+The printer has started printing the file;打印机已开始打印文件
+The printer has finished printing the file;打印机已完成打印文件
+Error;错误
+Printing canceled;打印已取消
+Pause;暂停
+Resume printing;恢复打印

@@ -395,3 +395,9 @@ Z-Offset saved in the native screen;Z-Offset uložený v nativním displeji
 Setting Z-offset {zoffset};Nastavení Z-offset {zoffset}
 Using global Z-Offset control. Z_OFFSET parameter ignored;Používá se globální ovládání Z-Offset. Parametr Z_OFFSET je ignorován
 Z-offset setup skipped;Nastavení Z-offset přeskočeno
+The printer has started printing the file;Tiskárna začala tisknout soubor
+The printer has finished printing the file;Tiskárna dokončila tisk souboru
+Error;Chyba
+Printing canceled;Tisk zrušen
+Pause;Pauza
+Resume printing;Pokračovat v tisku
