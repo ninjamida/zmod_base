@@ -395,10 +395,11 @@ Z-Offset saved in the native screen;Z-Offset im native Bildschirm gespeichert
 Setting Z-offset {zoffset};Einstellen von Z-offset {zoffset}
 Using global Z-Offset control. Z_OFFSET parameter ignored;Globale Z-Offset-Steuerung wird verwendet. Z_OFFSET-Parameter ignoriert
 Z-offset setup skipped;Z-offset-Einrichtung übersprungen
-The printer has started printing the file;Der Drucker hat mit dem Druck der Datei begonnen
+Start printer;Drucker The printer has started printing the file;Der Drucker hat mit dem Druck der Datei begonnen
 The printer has finished printing the file;Der Drucker hat den Druck der Datei beendet
 Error;Fehler
 Printing canceled;Druck abgebrochen
 Pause;Pause
 Resume printing;Druck fortsetzen
 Moving the bed down 5 mm;Das Bett wird um 5 mm abgesenkt
+Start printer;Drucker eingeschaltet
