@@ -70,14 +70,14 @@ Disable heating and cooler;Désactiver chauffage et refroidissement
 Disable nozzle line purge;Désactiver la purge de buse
 Disable SSH port forwarding;Désactiver le transfert de port SSH
 Disable stock screen;Désactiver l'écran natif
-Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;Ne pas désactiver l'écran sans comprendre le nivellement, le Z-offset et les macros START/END_PRINT
+Do not disable display if you don't fully understand bed leveling, Z-Offset and START_PRINT/END_PRINT macros;Ne pas désactiver l'écran sans comprendre le nivellement, le Z-Offset et les macros START/END_PRINT
 Don't build bed mesh on each print.;Ne construisez pas de maillage de lit sur chaque impression
 Don't check file MD5 checksum;Ne pas vérifier la somme MD5
 Don't close dialogs on native screen;Ne pas fermer les dialogues sur l'écran
 Don't disable motors automatically after print/cancel;Ne pas désactiver les moteurs automatiquement
 Don't fix E0011 error;Ne pas corriger l'erreur E0011
 Don't fix E0017 error;Ne pas corriger l'erreur E0017
-Don't load Z-OFFSET from global settings;Ne pas charger le Z-OFFSET des paramètres globaux
+Don't load Z-Offset from global settings;Ne pas charger le Z-Offset des paramètres globaux
 Don't reboot printer automatically;Ne pas redémarrer automatiquement
 Don't save data for print recovery;Ne pas sauvegarder pour la récupération
 Don't test bed mesh before printing;Ne pas tester le maillage avant impression
@@ -130,7 +130,7 @@ Forced bed leveling: enabled;Nivellement forcé : activé
 Generating belts frequency profile...;Génération du profil de fréquence des courroies...
 Getting data for KAMP.;Récupération des données pour KAMP
 Get ZMOD parameters;Obtenir les paramètres ZMOD
-Global Z-OFFSET load: ignored (working with screen);Chargement global Z-OFFSET : ignoré (écran actif)
+Global Z-Offset load: ignored (working with screen);Chargement global Z-Offset : ignoré (écran actif)
 GuppyScreen is not used;GuppyScreen non utilisé
 has detected that the filament has run out, please load it and press RESUME;Détection de fin de filament. Chargez-en et appuyez sur RESUME
 Heating bed and extruder.;Chauffage du plateau et de l'extrudeur
@@ -158,7 +158,7 @@ Loaded offset from global settings %s=%.4f;Décalage chargé depuis les paramèt
 Loading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s;Chargement du filament à {extruder_temp}°C pour {extrude_len}mm à {speed/60} mm/s
 Loading GuppyScreen;Chargement de GuppyScreen
 Loading skew_profile;Chargement du profil skew_profile
-Load Z-OFFSET from global settings;Charger le Z-OFFSET des paramètres globaux
+Load Z-Offset from global settings;Charger le Z-Offset des paramètres globaux
 Load;Charger
 Maintain frequency for vibration diagnostics;Maintenir la fréquence pour diagnostic vibratoire
 Manual filament loading / change;Chargement/Changement manuel
@@ -267,7 +267,7 @@ Select material to clean the nozzle;Choisir le matériau pour nettoyer la buse
 Select material to load;Sélectionner le matériau à charger
 Set 1/4->1/2->1 speed for 60s on print resume;Réglage de la vitesse 1/4->1/2->1 pendant 60s à la reprise
 Set date and time (format: 2024.01.01-00:00:00);Définir la date et l'heure (format : 2024.01.01-00:00:00)
-Setting Z-offset {zoffset}, SKIP_ZOFFSET={skip_zoffset};Réglage du Z-offset {zoffset}, SKIP_ZOFFSET={skip_zoffset}
+Setting Z-Offset {zoffset}, SKIP_ZOFFSET={skip_zoffset};Réglage du Z-Offset {zoffset}, SKIP_ZOFFSET={skip_zoffset}
 Shutdown printer?;Éteindre l'imprimante ?
 SKEW correction disabled;Correction SKEW désactivée
 SKEW correction enabled. Profile skew_profile;Correction SKEW activée. Profil skew_profile
@@ -312,7 +312,7 @@ Use nozzle pre-purge;Utiliser la pré-purge
 Use SCV = 5 for shaper graphs;Utiliser SCV = 5 pour les graphiques du shaper
 Use SCV from config for shaper graphs;Utiliser SCV du config pour les graphiques
 Use standard SAVE_CONFIG;Utiliser SAVE_CONFIG standard
-Use Z-OFFSET loading from global parameters to control Z-OFFSET with GuppyScreen;Charger Z-OFFSET des paramètres globaux pour contrôle via GuppyScreen
+Use Z-Offset loading from global parameters to control Z-Offset with GuppyScreen;Charger Z-Offset des paramètres globaux pour contrôle via GuppyScreen
 Use;Utiliser
 Using BED_MESH_CALIBRATE;Utilisation de BED_MESH_CALIBRATE
 Using filament motion sensor;Utilisation du détecteur de mouvement
@@ -343,7 +343,7 @@ You're using native screen. No need to restart GuppyScreen;Écran natif utilisé
 Zeroing confirmed;Zéro confirmé
 Zeroing not confirmed;Zéro non confirmé
 ZMOD parameters. Set via SAVE_ZMOD_DATA;Paramètres ZMOD. Régler via SAVE_ZMOD_DATA
-Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Réglage Z-offset ignoré, SKIP_ZOFFSET={skip_zoffset}
+Z-Offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Réglage Z-Offset ignoré, SKIP_ZOFFSET={skip_zoffset}
 Available languages;Langues disponibles
 Restore backup config files from archive;Restaurer les fichiers de configuration de sauvegarde à partir de l'archive
 To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;Pour restaurer la configuration, copiez dans 'Configuration' -> 'mod_data' -> config.tar.gz et appelez RESTORE_TAR_CONFIG
@@ -377,7 +377,7 @@ Don't forget to turn off the camera on your printer's native screen.;N'oubliez p
 START_PRINT has finished its work.;START_PRINT a terminé son travail.
 Incorrect MCU version. Need run UPDATE_MCU FORCE=13;Version MCU incorrecte. Exécutez UPDATE_MCU FORCE=13
 Incorrect ZLINK data. Register your printer on the http://zlink.info and receive a ZLINK string.;Données ZLINK incorrectes. Enregistrez votre imprimante sur http://zlink.info et recevez une chaîne ZLINK.
-Use LOAD_ZOFFSET_NATIVE to copy the Z-offset from the native screen.;Utilisez LOAD_ZOFFSET_NATIVE pour copier le Z-offset de l'écran natif.
+Use LOAD_ZOFFSET_NATIVE to copy the Z-Offset from the native screen.;Utilisez LOAD_ZOFFSET_NATIVE pour copier le Z-Offset de l'écran natif.
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;Activez NOZZLE_CONTROL pour contrôler l'impact de la buse sur la table
 Loading a similar rod from coil;Chargement d'un filament similaire de la bobine
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Utilisez SAVE_ZMOD_DATA MESH_TEST=2 pour lancer automatiquement KAMP en cas d'erreur
@@ -386,15 +386,15 @@ Initial setting;Paramétrage initial
 You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;Vous pouvez parcourir et modifier les paramètres globaux si nécessaire. https://github.com/ghzserg/zmod/wiki/Global_en
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Activer le plugin de recommandations ? Il permet de configurer les paramètres de base en un clic.
 Next;Suivant
-Z-offset loaded from native screen;Z-offset chargé depuis l'écran natif
+Z-Offset loaded from native screen;Z-Offset chargé depuis l'écran natif
 Did you know that you can access your printer remotely using zmod.link?;Saviez-vous que vous pouvez accéder à votre imprimante à distance en utilisant zmod.link ?
 Do not save the state of filament sensors;Ne pas enregistrer l'état des capteurs de filament
 Save the state of filament sensors;Enregistrer l'état des capteurs de filament
 Z-Offset saved in global settings;Z-Offset enregistré dans les paramètres globaux
 Z-Offset saved in the native screen;Z-Offset enregistré dans l'écran natif
-Setting Z-offset {zoffset};Configuration de Z-offset {zoffset}
+Setting Z-Offset {zoffset};Configuration de Z-Offset {zoffset}
 Using global Z-Offset control. Z_OFFSET parameter ignored;Utilisation du contrôle global Z-Offset. Le paramètre Z_OFFSET est ignoré
-Z-offset setup skipped;Configuration du Z-offset ignorée
+Z-Offset setup skipped;Configuration du Z-Offset ignorée
 The printer has started printing the file;L'imprimante a commencé l'impression du fichier
 The printer has finished printing the file;L'imprimante a terminé l'impression du fichier
 Error;Erreur

@@ -70,14 +70,14 @@ Disable heating and cooler;Отключить нагрев и кулер
 Disable nozzle line purge;Выключить очистку сопла линией
 Disable SSH port forwarding;Отключить проброс портов SSH
 Disable stock screen;Выключить стандартный экран
-Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;Не отключайте экран, если вы четко не понимаете как работает карта стола, z-offset и макросы START_PRINT и END_PRINT
+Do not disable display if you don't fully understand bed leveling, Z-Offset and START_PRINT/END_PRINT macros;Не отключайте экран, если вы четко не понимаете как работает карта стола, Z-Offset и макросы START_PRINT и END_PRINT
 Don't build bed mesh on each print.;Не строить карту стола при каждой печати
 Don't check file MD5 checksum;Не проверять MD5 сумму файла
 Don't close dialogs on native screen;Не закрывать диалоги на родном экране
 Don't disable motors automatically after print/cancel;Не выключать моторы автоматически после печати/отмены печати
 Don't fix E0011 error;Не исправлять ошибку E0011
 Don't fix E0017 error;Не исправлять ошибку E0017
-Don't load Z-OFFSET from global settings;Не загружать Z-OFFSET из глобальных параметров
+Don't load Z-Offset from global settings;Не загружать Z-Offset из глобальных параметров
 Don't reboot printer automatically;Не перезапускать принтер автоматически
 Don't save data for print recovery;Не сохранять данные для восстановления печати
 Don't test bed mesh before printing;Не тестировать карту стола перед печатью
@@ -130,7 +130,7 @@ Forced bed leveling: enabled;Снятие карты стола принудит
 Generating belts frequency profile...;Генерация частотного профиля ремней...
 Getting data for KAMP.;Получаю данные для KAMP.
 Get ZMOD parameters;Получить параметры ZMOD
-Global Z-OFFSET load: ignored (working with screen);Глобальная загрузка Z-OFFSET: игнорируется (работа с экраном)
+Global Z-Offset load: ignored (working with screen);Глобальная загрузка Z-Offset: игнорируется (работа с экраном)
 GuppyScreen is not used;GuppyScreen не используется
 has detected that the filament has run out, please load it and press RESUME;определил, что кончился филамент, пожалуйста загрузите его и нажмите RESUME
 Heating bed and extruder.;Сейчас будет нагрет стол и экструдер.
@@ -158,7 +158,7 @@ Loaded offset from global settings %s=%.4f;Загружено смещение �
 Loading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s;Загрузка филамента с температурой {extruder_temp} на {extrude_len} мм со скоростью {speed/60} мм/с
 Loading GuppyScreen;Будет загружен GuppyScreen
 Loading skew_profile;Загрузка skew_profile
-Load Z-OFFSET from global settings;Загрузка Z-OFFSET из глобальных параметров
+Load Z-Offset from global settings;Загрузка Z-Offset из глобальных параметров
 Load;Загрузить
 Maintain frequency for vibration diagnostics;Поддерживайте заданную частоту в течение определенного периода времени для диагностики и определения источника вибрации.
 Manual filament loading / change;Ручная загрузка/смена филамента
@@ -267,7 +267,7 @@ Select material to clean the nozzle;Выберите каким материло
 Select material to load;Какой материал загружать
 Set 1/4->1/2->1 speed for 60s on print resume;Установка 1/4->1/2->1 скорости при восстановлении печати на 60 секунд
 Set date and time (format: 2024.01.01-00:00:00);Установить дату и время (формат: 2024.01.01-00:00:00)
-Setting Z-offset {zoffset};Установка Z-offset {zoffset}
+Setting Z-Offset {zoffset};Установка Z-Offset {zoffset}
 Shutdown printer?;Выключить принтер?
 SKEW correction disabled;SKEW коррекция отключена
 SKEW correction enabled. Profile skew_profile;SKEW коррекция включена. Профиль skew_profile
@@ -312,7 +312,7 @@ Use nozzle pre-purge;Использовать предочистку сопла
 Use SCV = 5 for shaper graphs;Использовать SCV = 5 при построении графиков шейперов
 Use SCV from config for shaper graphs;Использовать SCV из конфигурации при построении графиков шейперов
 Use standard SAVE_CONFIG;Использовать стандартный SAVE_CONFIG
-Use Z-OFFSET loading from global parameters to control Z-OFFSET with GuppyScreen;Используйте загрузку Z-OFFSET из глобальных параметров, чтобы управлять Z-OFFSET c GuppyScreen
+Use Z-Offset loading from global parameters to control Z-Offset with GuppyScreen;Используйте загрузку Z-Offset из глобальных параметров, чтобы управлять Z-Offset c GuppyScreen
 Use;Используйте
 Using BED_MESH_CALIBRATE;Использую BED_MESH_CALIBRATE
 Using filament motion sensor;Используется датчик движения филамента
@@ -343,7 +343,7 @@ You're using native screen. No need to restart GuppyScreen;Вы работает
 Zeroing confirmed;Обнуление подтверждено
 Zeroing not confirmed;Подтверждения обнуления нет
 ZMOD parameters. Set via SAVE_ZMOD_DATA;Параметры zmod. Задаются через SAVE_ZMOD_DATA
-Z-offset setup skipped;Установка Z-offset пропущена
+Z-Offset setup skipped;Установка Z-Offset пропущена
 Available languages;Доступные языки
 Restore backup config files from archive;Восстановить резервные копии файлов конфигурации из архива
 To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;Для восстановления конфига скопировать в 'Конфигурация' -> 'mod_data' -> config.tar.gz и вызвать RESTORE_TAR_CONFIG
@@ -377,7 +377,7 @@ Don't forget to turn off the camera on your printer's native screen.;Не заб
 START_PRINT has finished its work.;START_PRINT закончил свою работу.
 Incorrect MCU version. Need run UPDATE_MCU FORCE=13;Неверная версия MCU. Запустите UPDATE_MCU FORCE=13
 Incorrect ZLINK data. Register your printer on the http://zlink.info and receive a ZLINK string.;Неверные данные ZLINK. Зарегистрируйте принтер на http://zlink.info и получите строку ZLINK.
-Use LOAD_ZOFFSET_NATIVE to copy the Z-offset from the native screen.;Используйте LOAD_ZOFFSET_NATIVE для копирования Z-offset с родного экрана.
+Use LOAD_ZOFFSET_NATIVE to copy the Z-Offset from the native screen.;Используйте LOAD_ZOFFSET_NATIVE для копирования Z-Offset с родного экрана.
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;Включите NOZZLE_CONTROL для контроля удара сопла о стол
 Loading a similar rod from coil;Загрузка аналогичного прутка с катушки
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Используйте SAVE_ZMOD_DATA MESH_TEST=2 для автоматического запуска KAMP при ошибке
@@ -386,7 +386,7 @@ Initial setting;Начальная настройка
 You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;Вы можете просматривать и изменять глобальные параметры при необходимости. https://github.com/ghzserg/zmod/wiki/Global_ru
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Включить плагин рекомендаций? Он позволяет настроить базовые параметры одним кликом.
 Next;Далее
-Z-offset loaded from native screen;Z-offset загружено с родного экрана
+Z-Offset loaded from native screen;Z-Offset загружено с родного экрана
 Did you know that you can access your printer remotely using zmod.link?;Знаете ли вы, что можно получить удалённый доступ к принтеру с помощью zmod.link?
 Do not save the state of filament sensors;Не сохранять состояние датчиков филамента
 Save the state of filament sensors;Сохранять состояние датчиков филамента

@@ -70,14 +70,14 @@ Disable heating and cooler;禁用加热和散热
 Disable nozzle line purge;禁用喷嘴线性清洗
 Disable SSH port forwarding;禁用SSH端口转发
 Disable stock screen;禁用原生屏幕
-Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;若不完全理解调平、Z偏移和START/END宏，请勿禁用屏幕
+Do not disable display if you don't fully understand bed leveling, Z-Offset and START_PRINT/END_PRINT macros;若不完全理解调平、Z偏移和START/END宏，请勿禁用屏幕
 Don't build bed mesh on each print.;不要在每次打印时都建立床网
 Don't check file MD5 checksum;不检查文件MD5
 Don't close dialogs on native screen;不自动关闭原生屏幕对话框
 Don't disable motors automatically after print/cancel;打印/取消后不自动禁用电机
 Don't fix E0011 error;不修复E0011错误
 Don't fix E0017 error;不修复E0017错误
-Don't load Z-OFFSET from global settings;不从全局设置加载Z偏移
+Don't load Z-Offset from global settings;不从全局设置加载Z偏移
 Don't reboot printer automatically;禁用自动重启
 Don't save data for print recovery;不保存打印恢复数据
 Don't test bed mesh before printing;打印前不测试床面网格
@@ -130,7 +130,7 @@ Forced bed leveling: enabled;强制调平：已启用
 Generating belts frequency profile...;正在生成皮带频率曲线...
 Getting data for KAMP.;正在获取KAMP数据
 Get ZMOD parameters;获取ZMOD参数
-Global Z-OFFSET load: ignored (working with screen);全局Z偏移加载：已忽略（屏幕模式）
+Global Z-Offset load: ignored (working with screen);全局Z偏移加载：已忽略（屏幕模式）
 GuppyScreen is not used;未使用GuppyScreen
 has detected that the filament has run out, please load it and press RESUME;检测到耗材用尽，请加载后按RESUME
 Heating bed and extruder.;正在加热打印床和喷头
@@ -158,7 +158,7 @@ Loaded offset from global settings %s=%.4f;已加载全局设置偏移 %s=%.4f
 Loading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s;正在以{extruder_temp}℃加载{extrude_len}毫米耗材，速度{speed/60}毫米/秒
 Loading GuppyScreen;正在加载GuppyScreen
 Loading skew_profile;正在加载skew_profile
-Load Z-OFFSET from global settings;从全局设置加载Z偏移
+Load Z-Offset from global settings;从全局设置加载Z偏移
 Load;加载
 Maintain frequency for vibration diagnostics;保持频率用于振动诊断
 Manual filament loading / change;手动加载/更换耗材
@@ -267,7 +267,7 @@ Select material to clean the nozzle;选择清洁喷嘴的材料
 Select material to load;选择要加载的材料
 Set 1/4->1/2->1 speed for 60s on print resume;恢复打印时设置1/4->1/2->1速度持续60秒
 Set date and time (format: 2024.01.01-00:00:00);设置日期和时间（格式：2024.01.01-00:00:00）
-Setting Z-offset {zoffset}, SKIP_ZOFFSET={skip_zoffset};设置Z偏移{zoffset}, SKIP_ZOFFSET={skip_zoffset}
+Setting Z-Offset {zoffset}, SKIP_ZOFFSET={skip_zoffset};设置Z偏移{zoffset}, SKIP_ZOFFSET={skip_zoffset}
 Shutdown printer?;关闭打印机？
 SKEW correction disabled;SKEW校正已禁用
 SKEW correction enabled. Profile skew_profile;SKEW校正已启用。配置文件skew_profile
@@ -312,7 +312,7 @@ Use nozzle pre-purge;使用喷嘴预清洗
 Use SCV = 5 for shaper graphs;使用SCV=5生成整形器图表
 Use SCV from config for shaper graphs;使用配置中的SCV生成整形器图表
 Use standard SAVE_CONFIG;使用标准SAVE_CONFIG
-Use Z-OFFSET loading from global parameters to control Z-OFFSET with GuppyScreen;从全局参数加载Z偏移以通过GuppyScreen控制
+Use Z-Offset loading from global parameters to control Z-Offset with GuppyScreen;从全局参数加载Z偏移以通过GuppyScreen控制
 Use;使用
 Using BED_MESH_CALIBRATE;正在使用BED_MESH_CALIBRATE
 Using filament motion sensor;正在使用耗材运动传感器
@@ -343,7 +343,7 @@ You're using native screen. No need to restart GuppyScreen;您正在使用原生
 Zeroing confirmed;归零已确认
 Zeroing not confirmed;未确认归零
 ZMOD parameters. Set via SAVE_ZMOD_DATA;ZMOD参数。通过SAVE_ZMOD_DATA设置
-Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Z偏移设置已跳过，SKIP_ZOFFSET={skip_zoffset}
+Z-Offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Z偏移设置已跳过，SKIP_ZOFFSET={skip_zoffset}
 Available languages;可用语言
 Restore backup config files from archive;从存档中恢复备份配置文件
 To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;要恢复配置，请复制到“配置”->“mod_data”-> config.tar.gz 并调用 RESTORE_TAR_CONFIG
@@ -377,7 +377,7 @@ Don't forget to turn off the camera on your printer's native screen.;不要忘�
 START_PRINT has finished its work.;START_PRINT已完成其工作。
 Incorrect MCU version. Need run UPDATE_MCU FORCE=13;MCU版本不正确。需要运行 UPDATE_MCU FORCE=13
 Incorrect ZLINK data. Register your printer on the http://zlink.info and receive a ZLINK string.;ZLINK数据不正确。在 http://zlink.info 上注册您的打印机并获取ZLINK字符串。
-Use LOAD_ZOFFSET_NATIVE to copy the Z-offset from the native screen.;使用 LOAD_ZOFFSET_NATIVE 从原生屏幕复制 Z 偏移量。
+Use LOAD_ZOFFSET_NATIVE to copy the Z-Offset from the native screen.;使用 LOAD_ZOFFSET_NATIVE 从原生屏幕复制 Z 偏移量。
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;开启 NOZZLE_CONTROL 以控制喷嘴对平台的影响
 Loading a similar rod from coil;从线轴加载相似耗材
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;使用 SAVE_ZMOD_DATA MESH_TEST=2 在发生错误时自动启动 KAMP
@@ -386,15 +386,15 @@ Initial setting;初始设置
 You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;如有必要，您可以浏览并更改全局参数。 https://github.com/ghzserg/zmod/wiki/Global_en
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;启用推荐插件？它允许您一键配置基本设置。
 Next;下一步
-Z-offset loaded from native screen;Z偏移量已从原生屏幕加载
+Z-Offset loaded from native screen;Z偏移量已从原生屏幕加载
 Did you know that you can access your printer remotely using zmod.link?;您知道可以通过 zmod.link 远程访问您的打印机吗？
 Do not save the state of filament sensors;不保存耗材传感器状态
 Save the state of filament sensors;保存耗材传感器状态
 Z-Offset saved in global settings;Z-Offset 已保存到全局设置
 Z-Offset saved in the native screen;Z-Offset 已保存到原生屏幕
-Setting Z-offset {zoffset};Z-offset {zoffset} ayarlanıyor
+Setting Z-Offset {zoffset};Z-Offset {zoffset} ayarlanıyor
 Using global Z-Offset control. Z_OFFSET parameter ignored;Genel Z-Offset kontrolü kullanılıyor. Z_OFFSET parametresi yok sayılıyor
-Z-offset setup skipped;Z-offset kurulumu atlandı
+Z-Offset setup skipped;Z-Offset kurulumu atlandı
 The printer has started printing the file;打印机已开始打印文件
 The printer has finished printing the file;打印机已完成打印文件
 Error;错误

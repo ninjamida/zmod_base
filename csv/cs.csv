@@ -70,14 +70,14 @@ Disable heating and cooler;Vypnout ohřev a chlazení
 Disable nozzle line purge;Vypnout čištění trysky linií
 Disable SSH port forwarding;Zakázat SSH port forwarding
 Disable stock screen;Vypnout standardní displej
-Do not disable display if you don't fully understand bed leveling, z-offset and START_PRINT/END_PRINT macros;Nevypínejte displej, pokud plně nerozumíte nivelaci podložky, z-offsetu a makrům START_PRINT/END_PRINT
+Do not disable display if you don't fully understand bed leveling, Z-Offset and START_PRINT/END_PRINT macros;Nevypínejte displej, pokud plně nerozumíte nivelaci podložky, Z-Offsetu a makrům START_PRINT/END_PRINT
 Don't build bed mesh on each print.;Nevytvářet síť podložky při každém tisku
 Don't check file MD5 checksum;Nekontrolovat MD5 kontrolní součet souboru
 Don't close dialogs on native screen;Nezavírat dialogy na nativním displeji
 Don't disable motors automatically after print/cancel;Nevypínat motory automaticky po tisku/stornu
 Don't fix E0011 error;Neopravovat chybu E0011
 Don't fix E0017 error;Neopravovat chybu E0017
-Don't load Z-OFFSET from global settings;Nenačítat Z-OFFSET z globálních nastavení
+Don't load Z-Offset from global settings;Nenačítat Z-Offset z globálních nastavení
 Don't reboot printer automatically;Nerestartovat tiskárnu automaticky
 Don't save data for print recovery;Neukládat data pro obnovu tisku
 Don't test bed mesh before printing;Netestovat síť podložky před tiskem
@@ -130,7 +130,7 @@ Forced bed leveling: enabled;Vynucená nivelace podložky: povolena
 Generating belts frequency profile...;Generování frekvenčního profilu pásů...
 Getting data for KAMP.;Získávání dat pro KAMP.
 Get ZMOD parameters;Získat parametry ZMOD
-Global Z-OFFSET load: ignored (working with screen);Globální načtení Z-OFFSET: ignorováno (práce s displejem)
+Global Z-Offset load: ignored (working with screen);Globální načtení Z-Offset: ignorováno (práce s displejem)
 GuppyScreen is not used;GuppyScreen není používán
 has detected that the filament has run out, please load it and press RESUME;zjistil, že filament došel, načtěte jej a stiskněte RESUME
 Heating bed and extruder.;Ohřev podložky a extruderu.
@@ -158,7 +158,7 @@ Loaded offset from global settings %s=%.4f;Načten offset z globálních nastave
 Loading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s;Načítání filamentu při {extruder_temp} pro {extrude_len}mm při {speed/60} mm/s
 Loading GuppyScreen;Načítání GuppyScreen
 Loading skew_profile;Načítání skew_profile
-Load Z-OFFSET from global settings;Načíst Z-OFFSET z globálních nastavení
+Load Z-Offset from global settings;Načíst Z-Offset z globálních nastavení
 Load;Načíst
 Maintain frequency for vibration diagnostics;Udržovat frekvenci pro diagnostiku vibrací
 Manual filament loading / change;Manuální načítání/výměna filamentu
@@ -267,7 +267,7 @@ Select material to clean the nozzle;Vybrat materiál pro čištění trysky
 Select material to load;Vybrat materiál pro načtení
 Set 1/4->1/2->1 speed for 60s on print resume;Nastavit rychlost 1/4->1/2->1 na 60s při pokračování tisku
 Set date and time (format: 2024.01.01-00:00:00);Nastavit datum a čas (formát: 2024.01.01-00:00:00)
-Setting Z-offset {zoffset}, SKIP_ZOFFSET={skip_zoffset};Nastavení Z-offset {zoffset}, SKIP_ZOFFSET={skip_zoffset}
+Setting Z-Offset {zoffset}, SKIP_ZOFFSET={skip_zoffset};Nastavení Z-Offset {zoffset}, SKIP_ZOFFSET={skip_zoffset}
 Shutdown printer?;Vypnout tiskárnu?
 SKEW correction disabled;Korekce SKEW vypnuta
 SKEW correction enabled. Profile skew_profile;Korekce SKEW povolena. Profil skew_profile
@@ -312,7 +312,7 @@ Use nozzle pre-purge;Použít předčištění trysky
 Use SCV = 5 for shaper graphs;Použít SCV = 5 pro grafy shaperu
 Use SCV from config for shaper graphs;Použít SCV z konfigurace pro grafy shaperu
 Use standard SAVE_CONFIG;Použít standardní SAVE_CONFIG
-Use Z-OFFSET loading from global parameters to control Z-OFFSET with GuppyScreen;Použít načítání Z-OFFSET z globálních parametrů pro ovládání Z-OFFSET s GuppyScreen
+Use Z-Offset loading from global parameters to control Z-Offset with GuppyScreen;Použít načítání Z-Offset z globálních parametrů pro ovládání Z-Offset s GuppyScreen
 Use;Použít
 Using BED_MESH_CALIBRATE;Používá se BED_MESH_CALIBRATE
 Using filament motion sensor;Používá se senzor pohybu filamentu
@@ -343,7 +343,7 @@ You're using native screen. No need to restart GuppyScreen;Používáte nativní
 Zeroing confirmed;Nulování potvrzeno
 Zeroing not confirmed;Nulování nepotvrzeno
 ZMOD parameters. Set via SAVE_ZMOD_DATA;Parametry ZMOD. Nastavte přes SAVE_ZMOD_DATA
-Z-offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Nastavení Z-offset přeskočeno, SKIP_ZOFFSET={skip_zoffset}
+Z-Offset setup skipped, SKIP_ZOFFSET={skip_zoffset};Nastavení Z-Offset přeskočeno, SKIP_ZOFFSET={skip_zoffset}
 Available languages;Dostupné jazyky
 Restore backup config files from archive;Obnovit zálohované konfigurační soubory z archivu
 To restore the config, copy to 'Configuration' -> 'mod_data' -> config.tar.gz and call RESTORE_TAR_CONFIG;Pro obnovení konfigurace zkopírujte do 'Configuration' -> 'mod_data' -> config.tar.gz a zavolejte RESTORE_TAR_CONFIG
@@ -377,7 +377,7 @@ Don't forget to turn off the camera on your printer's native screen.;Nezapomeňt
 START_PRINT has finished its work.;START_PRINT dokončil svou práci.
 Incorrect MCU version. Need run UPDATE_MCU FORCE=13;Nesprávná verze MCU. Spusťte UPDATE_MCU FORCE=13
 Incorrect ZLINK data. Register your printer on the http://zlink.info and receive a ZLINK string.;Nesprávná data ZLINK. Zaregistrujte svou tiskárnu na http://zlink.info a získejte řetězec ZLINK.
-Use LOAD_ZOFFSET_NATIVE to copy the Z-offset from the native screen.;Použijte LOAD_ZOFFSET_NATIVE pro kopírování Z-offsetu z nativní obrazovky.
+Use LOAD_ZOFFSET_NATIVE to copy the Z-Offset from the native screen.;Použijte LOAD_ZOFFSET_NATIVE pro kopírování Z-Offsetu z nativní obrazovky.
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;Zapněte NOZZLE_CONTROL pro kontrolu dopadu trysky na stůl
 Loading a similar rod from coil;Načítání podobného filamentu z cívky
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Použijte SAVE_ZMOD_DATA MESH_TEST=2 pro automatické spuštění KAMP v případě chyby
@@ -386,15 +386,15 @@ Initial setting;Počáteční nastavení
 You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;V případě potřeby můžete procházet a měnit globální parametry. https://github.com/ghzserg/zmod/wiki/Global_en
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Povolit plugin doporučení? Umožňuje nakonfigurovat základní nastavení jedním kliknutím.
 Next;Další
-Z-offset loaded from native screen;Z-offset načten z nativní obrazovky
+Z-Offset loaded from native screen;Z-Offset načten z nativní obrazovky
 Did you know that you can access your printer remotely using zmod.link?;Věděli jste, že k vaší tiskárně můžete přistupovat na dálku pomocí zmod.link?
 Do not save the state of filament sensors;Neukládat stav filamentových senzorů
 Save the state of filament sensors;Ukládat stav filamentových senzorů
 Z-Offset saved in global settings;Z-Offset uložený v globálních nastaveních
 Z-Offset saved in the native screen;Z-Offset uložený v nativním displeji
-Setting Z-offset {zoffset};Nastavení Z-offset {zoffset}
+Setting Z-Offset {zoffset};Nastavení Z-Offset {zoffset}
 Using global Z-Offset control. Z_OFFSET parameter ignored;Používá se globální ovládání Z-Offset. Parametr Z_OFFSET je ignorován
-Z-offset setup skipped;Nastavení Z-offset přeskočeno
+Z-Offset setup skipped;Nastavení Z-Offset přeskočeno
 The printer has started printing the file;Tiskárna začala tisknout soubor
 The printer has finished printing the file;Tiskárna dokončila tisk souboru
 Error;Chyba
