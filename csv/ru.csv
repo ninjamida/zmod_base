@@ -405,3 +405,5 @@ Loading a similar rod for the tool;Загрузка аналогичного п�
 this cleanup macro does NOT exist. LINE_PURGE is used;этот макрос очистки НЕ существует. Используется LINE_PURGE
 Available macros;Доступные макросы
 Add the {macro_name|upper} macro to mod_data/user.cfg or disable the use of the cleanup line // SAVE_ZMOD_DATA DISABLE_PRIMING=1;Добавьте макрос {macro_name|upper} в mod_data/user.cfg или отключите использование линии очистки // SAVE_ZMOD_DATA DISABLE_PRIMING=1
+Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp};Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp}
+Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper};Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper}

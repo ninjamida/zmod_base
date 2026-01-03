@@ -408,3 +408,5 @@ Loading a similar rod for the tool;Alet için benzer bir filament yükleniyor
 this cleanup macro does NOT exist. LINE_PURGE is used;bu temizleme makrosu mevcut DEĞİL. LINE_PURGE kullanılıyor
 Available macros;Kullanılabilir Makrolar
 Add the {macro_name|upper} macro to mod_data/user.cfg or disable the use of the cleanup line // SAVE_ZMOD_DATA DISABLE_PRIMING=1;mod_data/user.cfg'ye {macro_name|upper} makrosunu ekleyin veya temizleme hattı kullanımını devre dışı bırakın // SAVE_ZMOD_DATA DISABLE_PRIMING=1
+Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp};Duraklat: Geri Yükle: {restore}, Sıcaklık: {temp}/{heater_bed_temp}
+Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper};Devam Et: Geri Yükle: {last_extruder_temp.restore}, Sıcaklık: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Durum: {printer.idle_timeout.state | upper}
