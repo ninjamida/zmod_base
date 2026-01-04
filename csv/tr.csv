@@ -83,7 +83,7 @@ Don't save data for print recovery;Yazdırma kurtarma için veri kaydetme
 Don't test bed mesh before printing;Yazdırmadan önce yatak ağını test etme
 Don't use KAMP instead of BED_MESH_CALIBRATE;BED_MESH_CALIBRATE yerine KAMP kullanma
 Don't use nozzle pre-purge;Nozul ön temizleme kullanma
-Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Arşiv, 'Yapılandırma' -> 'mod_data' -> config.tar.gz yolundan indirilebilir
+Download archive in 'Configuration' -> 'mod_data' ->;Arşiv, 'Yapılandırma' -> 'mod_data' -> yolundan indirilebilir
 Enable backlight;Arka ışığı aç
 Enable camera on printer screen;Yazıcı ekranındaki kamerayı etkinleştirin
 Enable/disable pause at specific layer;Belirli bir katmanda duraklamayı aç/kapat

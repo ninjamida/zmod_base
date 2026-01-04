@@ -83,7 +83,7 @@ Don't save data for print recovery;Neukládat data pro obnovu tisku
 Don't test bed mesh before printing;Netestovat síť podložky před tiskem
 Don't use KAMP instead of BED_MESH_CALIBRATE;Nepoužívat KAMP místo BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;Nepoužívat předčištění trysky
-Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Stáhnout archiv v 'Configuration' -> 'mod_data' -> config.tar.gz
+Download archive in 'Configuration' -> 'mod_data' ->;Stáhnout archiv v 'Configuration' -> 'mod_data' ->
 Enable backlight;Zapnout podsvícení
 Enable camera on printer screen;Zapnout kameru na displeji tiskárny
 Enable/disable pause at specific layer;Povolit/zakázat pauzu na konkrétní vrstvě

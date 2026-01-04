@@ -83,7 +83,7 @@ Don't save data for print recovery;Ne pas sauvegarder pour la récupération
 Don't test bed mesh before printing;Ne pas tester le maillage avant impression
 Don't use KAMP instead of BED_MESH_CALIBRATE;Ne pas utiliser KAMP à la place de BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;Ne pas utiliser la pré-purge
-Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Téléchargez l'archive dans 'Configuration' -> 'mod_data' -> config.tar.gz
+Download archive in 'Configuration' -> 'mod_data' ->;Téléchargez l'archive dans 'Configuration' -> 'mod_data' ->
 Enable backlight;Activer le rétroéclairage
 Enable camera on printer screen;Activer la caméra sur l'écran
 Enable/disable pause at specific layer;Activer/Désactiver la pause à une couche spécifique

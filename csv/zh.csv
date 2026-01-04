@@ -83,7 +83,7 @@ Don't save data for print recovery;不保存打印恢复数据
 Don't test bed mesh before printing;打印前不测试床面网格
 Don't use KAMP instead of BED_MESH_CALIBRATE;不使用KAMP替代BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;禁用喷嘴预清洗
-Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;在"配置"->"mod_data"->config.tar.gz下载存档
+Download archive in 'Configuration' -> 'mod_data' ->;在"配置"->"mod_data"->config.tar.gz下载存档
 Enable backlight;启用背光
 Enable camera on printer screen;启用打印机屏幕摄像头
 Enable/disable pause at specific layer;启用/禁用指定层暂停

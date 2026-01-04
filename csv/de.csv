@@ -83,7 +83,7 @@ Don't save data for print recovery;Keine Daten für Druckwiederherstellung speic
 Don't test bed mesh before printing;Bett-Mesh nicht vor Druck testen
 Don't use KAMP instead of BED_MESH_CALIBRATE;KAMP nicht anstelle von BED_MESH_CALIBRATE verwenden
 Don't use nozzle pre-purge;Düsen-Vorabreinigung nicht verwenden
-Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Archiv unter 'Konfiguration' -> 'mod_data' -> config.tar.gz herunterladen
+Download archive in 'Configuration' -> 'mod_data' ->;Archiv unter 'Konfiguration' -> 'mod_data' -> herunterladen
 Enable backlight;Hintergrundbeleuchtung aktivieren
 Enable camera on printer screen;Kamera auf Drucker-Display aktivieren
 Enable/disable pause at specific layer;Pause bei bestimmter Schicht aktivieren/deaktivieren

@@ -83,7 +83,7 @@ Don't save data for print recovery;Не сохранять данные для �
 Don't test bed mesh before printing;Не тестировать карту стола перед печатью
 Don't use KAMP instead of BED_MESH_CALIBRATE;Не использоваить KAMP вместо BED_MESH_CALIBRATE
 Don't use nozzle pre-purge;Не использовать предочистку сопла
-Download archive in 'Configuration' -> 'mod_data' -> config.tar.gz;Скачать архив можно в 'Конфигурация' -> 'mod_data' -> config.tar.gz
+Download archive in 'Configuration' -> 'mod_data' ->;Скачать архив можно в 'Конфигурация' -> 'mod_data' ->
 Enable backlight;Включить подсветку
 Enable camera on printer screen;Включите камеру на экране принтера
 Enable/disable pause at specific layer;Включить/Выключить паузу на конкретном номере слоя
