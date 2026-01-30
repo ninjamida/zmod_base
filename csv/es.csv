@@ -415,3 +415,4 @@ Use SAVE_ZMOD_DATA MESH_TEST=%d to automatically launch KAMP if an error occurs;
 AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: activado // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
 AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: desactivado // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
 Photo;Foto
+There will be a SCHEDULED reboot now;Se realizará un reinicio PROgramado ahora

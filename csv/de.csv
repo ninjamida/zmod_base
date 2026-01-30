@@ -414,3 +414,4 @@ WARNING: Last probe MORE saved by %.4f mm!;WARNUNG: Letzte Sonde ÜBERSTEIGT ges
 Use SAVE_ZMOD_DATA MESH_TEST=%d to automatically launch KAMP if an error occurs;Verwenden Sie SAVE_ZMOD_DATA MESH_TEST=%d, um KAMP bei einem Fehler automatisch zu starten
 AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: an // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
 AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: aus // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
+There will be a SCHEDULED reboot now;Ein GEplanter Neustart wird jetzt durchgeführt
