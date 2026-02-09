@@ -115,7 +115,7 @@ Filament runout or jam detected;Filament bitti veya sıkıştı algılandı
 Filament jam detected;Filament sıkışması algılandı
 Filament runout. Pausing in 30 seconds;Filament bitti. 30 saniye içinde duraklatılacak
 File {filename} contains arc commands (G2, G3). Disable them. In Orca: Process Profile -> Arc Approximation -> Uncheck;{filename} dosyasında ark komutları (G2, G3) bulundu. Bunları devre dışı bırakın. Orca'da: İşlem Profili -> Ark Yaklaşımı -> İşareti kaldırın.
-File {filename} has no MD5 checksum. Enable it in Orca. https://github.com/ghzserg/zmod/wiki/Recomendations_en;{filename} dosyasında MD5 sağlama toplamı yok. Orca'da etkinleştirin. https://github.com/ghzserg/zmod/wiki/Recomendations
+File {filename} has no MD5 checksum. Enable it in Orca. https://wiki.zmod.link/Recomendations/;{filename} dosyasında MD5 sağlama toplamı yok. Orca'da etkinleştirin. https://wiki.zmod.link/Recomendations/
 File {filename} MD5 mismatch. File deleted. Print canceled;{filename} dosyasının MD5 sağlama toplamı uyuşmuyor. Dosya silindi. Yazdırma iptal edildi
 File {filename} MD5 mismatch. Print canceled;{filename} dosyasının MD5 sağlama toplamı uyuşmuyor. Yazdırma iptal edildi
 File {filename} uses unsupported G17/G18/G19 commands. Replace Z-Hop type.;{filename} dosyasında desteklenmeyen (G17, G18, G19) komutları kullanılmış. Z-Hop tipini değiştirin.
@@ -135,7 +135,7 @@ GuppyScreen is not used;GuppyScreen kullanılmıyor
 has detected that the filament has run out, please load it and press RESUME;filamentin bittiğini algıladı, lütfen yükleyin ve DEVAM ET'e basın
 Heating bed and extruder.;Yatak ve ekstrüder ısıtılacak.
 Helper;Yardımcı
-https://github.com/ghzserg/zmod/wiki/FAQ_en;https://github.com/ghzserg/zmod/wiki/FAQ
+https://wiki.zmod.link/FAQ/;https://wiki.zmod.link/FAQ/
 Image saved: {png_out_path}. Configuration -> mod_data;Görüntü kaydedildi: {png_out_path}. Yapılandırma -> mod_data
 In Orca. Printer profile -> Extruder 1 -> Z Hop Type. Set Normal or Sloped.;Orca'da. Yazıcı profili -> Ekstrüder 1 -> Z Hop Tipi. Normal veya Eğimli olarak ayarlayın.
 In Orca: Printer Profile -> Extruder 1 -> Z Hop Type -> Set to Normal or Sloped;Orca'da: Yazıcı Profili -> Ekstrüder 1 -> Z Hop Tipi -> Normal veya Eğimli olarak ayarlayın
@@ -151,7 +151,7 @@ Left;Sol
 Linear move with gcode state save/restore;Gcode durumunu kaydeden/geri yükleyen doğrusal hareket
 LINE_PURGE forced;LINE_PURGE zorla başlatıldı
 Load bed mesh: {mesh};Yatak ağını yükle: {mesh}
-Load cell reset error. Read FAQ: https://github.com/ghzserg/zmod/wiki/FAQ_en;Yük hücresi sıfırlama hatası. SSS'yi okuyun: https://github.com/ghzserg/zmod/wiki/FAQ
+Load cell reset error. Read FAQ: https://wiki.zmod.link/FAQ/;Yük hücresi sıfırlama hatası. SSS'yi okuyun: https://wiki.zmod.link/FAQ/
 Load cell reset successful. Weight: {we};Yük hücresi sıfırlama başarılı. Ağırlık: {we}
 Load cell triggered! Make sure the bed is clean!;Yük hücresi tetiklendi! Yatağın temiz olduğundan emin olun!
 Loaded offset from global settings %s=%.4f;Genel ayarlardan ofset yüklendi %s=%.4f
@@ -383,7 +383,7 @@ Loading a similar rod from coil;Bobinden benzer bir çubuk yükleniyor
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Hata oluşursa KAMP'ı otomatik başlatmak için SAVE_ZMOD_DATA MESH_TEST=2 kullanın
 If any parameters were changed, it is recommended to reboot the printer;Herhangi bir parametre değiştirildiyse, yazıcıyı yeniden başlatmanız önerilir
 Initial setting;Başlangıç ayarı
-You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;Gerekirse genel parametreleri görüntüleyip değiştirebilirsiniz. https://github.com/ghzserg/zmod/wiki/Global_en
+You can browse and change global parameters if necessary. https://wiki.zmod.link/Global/;Gerekirse genel parametreleri görüntüleyip değiştirebilirsiniz. https://wiki.zmod.link/Global/
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Öneri eklentisini etkinleştir? Temel ayarları tek tıklamayla yapılandırmanızı sağlar.
 Next;Sonraki
 Z-Offset loaded from native screen;Z-Offset yerel ekrandan yüklendi
@@ -412,7 +412,7 @@ Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp};Duraklat: Geri Yükle:
 Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper};Devam Et: Geri Yükle: {last_extruder_temp.restore}, Sıcaklık: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Durum: {printer.idle_timeout.state | upper}
 WARNING: Last probe MORE saved by %.4f mm!;UYARI: Son prob kaydedilmiş değeri %.4f mm AŞIYOR!
 Use SAVE_ZMOD_DATA MESH_TEST=%d to automatically launch KAMP if an error occurs;Hata oluşursa KAMP'ı otomatik başlatmak için SAVE_ZMOD_DATA MESH_TEST=%d kullanın
-AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: açık // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
-AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: kapalı // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
+AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: açık // See https://wiki.zmod.link/Global/ mesh_test
+AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: kapalı // See https://wiki.zmod.link/Global/ mesh_test
 Photo;Foto
 There will be a SCHEDULED reboot now;Şimdi PLANLANAN bir yeniden başlatma gerçekleşecek

@@ -115,7 +115,7 @@ Filament runout or jam detected;Rilevata fine del filamento o blocco
 Filament jam detected;Filamento o blocco
 Filament runout. Pausing in 30 seconds;Fine del filamento. Pausa in 30 secondi
 File {filename} contains arc commands (G2, G3). Disable them. In Orca: Process Profile -> Arc Approximation -> Uncheck;Il file {filename} contiene comandi ad arco (G2, G3). Disattivali. In Orca: Process Profile -> Arc Approximation -> Deseleziona
-File {filename} has no MD5 checksum. Enable it in Orca. https://github.com/ghzserg/zmod/wiki/Recomendations_en;Il file {filename} non ha checksum MD5. Abilitalo in Orca. Link: [FAQ]
+File {filename} has no MD5 checksum. Enable it in Orca. https://wiki.zmod.link/Recomendations/;Il file {filename} non ha checksum MD5. Abilitalo in Orca. Link: [FAQ]
 File {filename} MD5 mismatch. File deleted. Print canceled;Checksum MD5 non corrispondente. File eliminato. Stampa annullata
 File {filename} MD5 mismatch. Print canceled;Checksum MD5 non corrispondente. Stampa annullata
 File {filename} uses unsupported G17/G18/G19 commands. Replace Z-Hop type.;Il file {filename} utilizza comandi G17/G18/G19 non supportati. Sostituisci il tipo Z-Hop.
@@ -135,7 +135,7 @@ GuppyScreen is not used;GuppyScreen non utilizzato
 has detected that the filament has run out, please load it and press RESUME;Ha rilevato che il filamento è terminato, caricarlo e premere RESUME
 Heating bed and extruder.;Riscaldamento del piatto ed estrusore
 Helper;Assistente
-https://github.com/ghzserg/zmod/wiki/FAQ_en;https://github.com/ghzserg/zmod/wiki/FAQ
+https://wiki.zmod.link/FAQ/;https://wiki.zmod.link/FAQ/
 Image saved: {png_out_path}. Configuration -> mod_data;Immagine salvata: {png_out_path}. Configurazione -> mod_data
 In Orca. Printer profile -> Extruder 1 -> Z Hop Type. Set Normal or Sloped.;In Orca: Profilo stampante -> Estrusore 1 -> Tipo Z Hop. Imposta Normale o Inclinato.
 In Orca: Printer Profile -> Extruder 1 -> Z Hop Type -> Set to Normal or Sloped;Mantenere istruzioni precedenti
@@ -151,7 +151,7 @@ Left;Sinistra
 Linear move with gcode state save/restore;Movimento lineare con salvataggio/ripristino dello stato gcode
 LINE_PURGE forced;LINE_PURGE forzato
 Load bed mesh: {mesh};Carica griglia del piatto: {mesh}
-Load cell reset error. Read FAQ: https://github.com/ghzserg/zmod/wiki/FAQ_en;Errore di reset della cella di carico. Leggi FAQ: https://github.com/ghzserg/zmod/wiki/FAQ
+Load cell reset error. Read FAQ: https://wiki.zmod.link/FAQ/;Errore di reset della cella di carico. Leggi FAQ: https://wiki.zmod.link/FAQ/
 Load cell reset successful. Weight: {we};Reset della cella di carico riuscito. Peso: {we}
 Load cell triggered! Make sure the bed is clean!;Cella di carico attivata! Assicurati che il piatto sia pulito!
 Loaded offset from global settings %s=%.4f;Offset caricato dalle impostazioni globali %s=%.4f
@@ -383,7 +383,7 @@ Loading a similar rod from coil;Caricamento filamento simile dalla bobina
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Usa SAVE_ZMOD_DATA MESH_TEST=2 per avviare automaticamente KAMP in caso di errore
 If any parameters were changed, it is recommended to reboot the printer;Se sono stati modificati dei parametri, si consiglia di riavviare la stampante
 Initial setting;Impostazione iniziale
-You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;Puoi visualizzare e modificare i parametri globali se necessario. https://github.com/ghzserg/zmod/wiki/Global_en
+You can browse and change global parameters if necessary. https://wiki.zmod.link/Global/;Puoi visualizzare e modificare i parametri globali se necessario. https://wiki.zmod.link/Global/
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Abilitare il plugin delle raccomandazioni? Permette di configurare le impostazioni di base con un clic.
 Next;Avanti
 Z-Offset loaded from native screen;Z-Offset caricato dallo schermo nativo
@@ -412,7 +412,7 @@ Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp};Pausa: Ripristina: {re
 Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper};Riprendi: Ripristina: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Stato: {printer.idle_timeout.state | upper}
 WARNING: Last probe MORE saved by %.4f mm!;ATTENZIONE: L'ultima sonda SUPERI il valore salvato di %.4f mm!
 Use SAVE_ZMOD_DATA MESH_TEST=%d to automatically launch KAMP if an error occurs;Usa SAVE_ZMOD_DATA MESH_TEST=%d per avviare automaticamente KAMP in caso di errore
-AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: attivo // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
-AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: disattivo // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
+AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: attivo // See https://wiki.zmod.link/Global/ mesh_test
+AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: disattivo // See https://wiki.zmod.link/Global/ mesh_test
 Photo;Foto
 There will be a SCHEDULED reboot now;Ci sarà un riavvio programmato PROGRAMMATO ora

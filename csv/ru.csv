@@ -115,7 +115,7 @@ Filament runout or jam detected;Кончился или остановился �
 Filament jam detected;Остановился филамент
 Filament runout. Pausing in 30 seconds;Кончился филамент. Через 30 секунд будет пауза
 File {filename} contains arc commands (G2, G3). Disable them. In Orca: Process Profile -> Arc Approximation -> Uncheck;В файле {filename} найдено использование дуг(G2, G3). Отключите их. В Orca: Профиль процесса -> Аппроксимация дугами. Убрать галочку.
-File {filename} has no MD5 checksum. Enable it in Orca. https://github.com/ghzserg/zmod/wiki/Recomendations_en;В файле {filename} нет MD5 суммы. Включите ее в Orca. https://github.com/ghzserg/zmod/wiki/Recomendations
+File {filename} has no MD5 checksum. Enable it in Orca. https://wiki.zmod.link/Recomendations/;В файле {filename} нет MD5 суммы. Включите ее в Orca. https://wiki.zmod.link/ru/Recomendations/
 File {filename} MD5 mismatch. File deleted. Print canceled;В файле {filename} не совпала MD5 сумма. Файл удален. Печать отменена
 File {filename} MD5 mismatch. Print canceled;В файле {filename} не совпала MD5 сумма. Печать отменена
 File {filename} uses unsupported G17/G18/G19 commands. Replace Z-Hop type.;В файле {filename} найдено использование (G17, G18, G19). Замените Cпиральный/Автоматич. Z-Hop. Принтер его не поддерживает.
@@ -135,7 +135,7 @@ GuppyScreen is not used;GuppyScreen не используется
 has detected that the filament has run out, please load it and press RESUME;определил, что кончился филамент, пожалуйста загрузите его и нажмите RESUME
 Heating bed and extruder.;Сейчас будет нагрет стол и экструдер.
 Helper;Помощник
-https://github.com/ghzserg/zmod/wiki/FAQ_en;https://github.com/ghzserg/zmod/wiki/FAQ
+https://wiki.zmod.link/FAQ/;https://wiki.zmod.link/ru/FAQ/
 Image saved: {png_out_path}. Configuration -> mod_data;Изображение сохранено: {png_out_path}. Конфигурация -> mod_data
 In Orca. Printer profile -> Extruder 1 -> Z Hop Type. Set Normal or Sloped.;В Orca. Профиль принтера -> Экструдер 1 -> Тип подъема оси Z. Установите Обычный или Наклонный.
 In Orca: Printer Profile -> Extruder 1 -> Z Hop Type -> Set to Normal or Sloped;В Orca: Профиль принтера -> Экструдер 1 -> Тип подъема оси Z. Установите Обычный или Наклонный.
@@ -151,7 +151,7 @@ Left;Левый
 Linear move with gcode state save/restore;Линейное перемещение с сохранением и восстановлением состояния gcode
 LINE_PURGE forced;LINE_PURGE запущен принудительно
 Load bed mesh: {mesh};Подгружать карту стола: {mesh}
-Load cell reset error. Read FAQ: https://github.com/ghzserg/zmod/wiki/FAQ_en;Ошибка сброса веса тензодатчиков. Читайте FAQ: https://github.com/ghzserg/zmod/wiki/FAQ
+Load cell reset error. Read FAQ: https://wiki.zmod.link/FAQ/;Ошибка сброса веса тензодатчиков. Читайте FAQ: https://wiki.zmod.link/ru/FAQ/
 Load cell reset successful. Weight: {we};Сброс веса тензодатчиков прошел успешно. Вес: {we}
 Load cell triggered! Make sure the bed is clean!;Обнаружена сработка тензодатчика! Убедитесь что стол чист!
 Loaded offset from global settings %s=%.4f;Загружено смещение из глобальных параметров %s=%.4f
@@ -383,7 +383,7 @@ Loading a similar rod from coil;Загрузка аналогичного пру
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Используйте SAVE_ZMOD_DATA MESH_TEST=2 для автоматического запуска KAMP при ошибке
 If any parameters were changed, it is recommended to reboot the printer;Если были изменены какие-либо параметры, рекомендуется перезагрузить принтер
 Initial setting;Начальная настройка
-You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;Вы можете просматривать и изменять глобальные параметры при необходимости. https://github.com/ghzserg/zmod/wiki/Global_ru
+You can browse and change global parameters if necessary. https://wiki.zmod.link/Global/;Вы можете просматривать и изменять глобальные параметры при необходимости. https://wiki.zmod.link/ru/Global/
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Включить плагин рекомендаций? Он позволяет настроить базовые параметры одним кликом.
 Next;Далее
 Z-Offset loaded from native screen;Z-Offset загружено с родного экрана
@@ -409,7 +409,7 @@ Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp};Пауза: Восст
 Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper};Resume: Восстановление: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Статус: {printer.idle_timeout.state | upper}
 WARNING: Last probe MORE saved by %.4f mm!;ВНИМАНИЕ: Последний зонд ПРЕВЫШАЕТ сохранённое значение на %.4f мм!
 Use SAVE_ZMOD_DATA MESH_TEST=%d to automatically launch KAMP if an error occurs;Используйте SAVE_ZMOD_DATA MESH_TEST=%d для автоматического запуска KAMP при ошибке
-AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: включён // See https://github.com/ghzserg/zmod/wiki/Global_ru mesh_test
-AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: выключен // See https://github.com/ghzserg/zmod/wiki/Global_ru mesh_test
+AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: включён // See https://wiki.zmod.link/ru/Global/ mesh_test
+AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: выключен // See https://wiki.zmod.link/ru/Global/ mesh_test
 Photo;Фото
 There will be a SCHEDULED reboot now;Сейчас произойдёт ЗАПЛАНИРОВАННАЯ перезагрузка

@@ -115,7 +115,7 @@ Filament runout or jam detected;フィラメント切れまたは詰まりを検
 Filament jam detected;フィラメント切れまたは詰まりを検出
 Filament runout. Pausing in 30 seconds;フィラメント切れ。30秒後に一時停止
 File {filename} contains arc commands (G2, G3). Disable them. In Orca: Process Profile -> Arc Approximation -> Uncheck;ファイル{filename}に円弧コマンド（G2, G3）が含まれています。無効化してください。Orcaで: プロセスプロファイル -> 円弧近似 -> チェックを外す
-File {filename} has no MD5 checksum. Enable it in Orca. https://github.com/ghzserg/zmod/wiki/Recomendations_en;ファイル{filename}にMD5チェックサムがありません。Orcaで有効化してください。https://github.com/ghzserg/zmod/wiki/Recomendations
+File {filename} has no MD5 checksum. Enable it in Orca. https://wiki.zmod.link/Recomendations/;ファイル{filename}にMD5チェックサムがありません。Orcaで有効化してください。https://wiki.zmod.link/Recomendations/
 File {filename} MD5 mismatch. File deleted. Print canceled;ファイル{filename}のMD5不一致。ファイルを削除し、印刷をキャンセルしました。
 File {filename} MD5 mismatch. Print canceled;ファイル{filename}のMD5不一致。印刷をキャンセルしました。
 File {filename} uses unsupported G17/G18/G19 commands. Replace Z-Hop type.;ファイル{filename}で未サポートのG17/G18/G19コマンドを使用。Z-Hopタイプを変更してください。
@@ -135,7 +135,7 @@ GuppyScreen is not used;GuppyScreenは使用されていません
 has detected that the filament has run out, please load it and press RESUME;フィラメント切れを検出。フィラメントを装填しRESUMEを押してください
 Heating bed and extruder.;ベッドとエクストルーダーを加熱中
 Helper;ヘルパー
-https://github.com/ghzserg/zmod/wiki/FAQ_en;https://github.com/ghzserg/zmod/wiki/FAQ
+https://wiki.zmod.link/FAQ/;https://wiki.zmod.link/FAQ/
 Image saved: {png_out_path}. Configuration -> mod_data;画像保存: {png_out_path}。設定 -> mod_data
 In Orca. Printer profile -> Extruder 1 -> Z Hop Type. Set Normal or Sloped.;Orcaで。プリンタプロファイル -> エクストルーダー1 -> Zホップタイプ。通常または傾斜を設定。
 In Orca: Printer Profile -> Extruder 1 -> Z Hop Type -> Set to Normal or Sloped;Orcaで: プリンタプロファイル -> エクストルーダー1 -> Zホップタイプ -> 通常または傾斜を設定
@@ -151,7 +151,7 @@ Left;左
 Linear move with gcode state save/restore;Gコード状態保存/復元付きリニア移動
 LINE_PURGE forced;LINE_PURGEを強制実行
 Load bed mesh: {mesh};ベッドメッシュを読み込み: {mesh}
-Load cell reset error. Read FAQ: https://github.com/ghzserg/zmod/wiki/FAQ_en;ロードセルリセットエラー。FAQを参照: https://github.com/ghzserg/zmod/wiki/FAQ
+Load cell reset error. Read FAQ: https://wiki.zmod.link/FAQ/;ロードセルリセットエラー。FAQを参照: https://wiki.zmod.link/FAQ/
 Load cell reset successful. Weight: {we};ロードセルリセット成功。重量: {we}
 Load cell triggered! Make sure the bed is clean!;ロードセルがトリガー！ベッドが清掃されていることを確認！
 Loaded offset from global settings %s=%.4f;グローバル設定からオフセットを読み込み %s=%.4f
@@ -383,7 +383,7 @@ Loading a similar rod from coil;コイルから類似のフィラメントをロ
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;エラーが発生した場合にKAMPを自動起動するにはSAVE_ZMOD_DATA MESH_TEST=2を使用します
 If any parameters were changed, it is recommended to reboot the printer;いずれかのパラメータが変更された場合、プリンターを再起動することをお勧めします
 Initial setting;初期設定
-You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;必要に応じてグローバルパラメータを閲覧および変更できます。 https://github.com/ghzserg/zmod/wiki/Global_en
+You can browse and change global parameters if necessary. https://wiki.zmod.link/Global/;必要に応じてグローバルパラメータを閲覧および変更できます。 https://wiki.zmod.link/Global/
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;推奨プラグインを有効にしますか？基本的な設定をワンクリックで構成できます。
 Next;次へ
 Z-Offset loaded from native screen;ネイティブ画面からZオフセットをロードしました
@@ -412,7 +412,7 @@ Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp};一時停止: 復元: 
 Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper};再開: 復元: {last_extruder_temp.restore}, 温度: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, ステータス: {printer.idle_timeout.state | upper}
 WARNING: Last probe MORE saved by %.4f mm!;警告: 最終プローブが保存値を %.4f mm 超過しています！
 Use SAVE_ZMOD_DATA MESH_TEST=%d to automatically launch KAMP if an error occurs;エラー発生時にKAMPを自動起動するにはSAVE_ZMOD_DATA MESH_TEST=%dを使用します
-AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: オン // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
-AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: オフ // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
+AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: オン // See https://wiki.zmod.link/Global/ mesh_test
+AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: オフ // See https://wiki.zmod.link/Global/ mesh_test
 Photo;写真
 There will be a SCHEDULED reboot now;スケジュールされた再起動を今から実行します

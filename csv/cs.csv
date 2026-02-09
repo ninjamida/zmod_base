@@ -115,7 +115,7 @@ Filament runout or jam detected;Detekován konec nebo zaseknutí filamentu
 Filament jam detected;Detekováno zaseknutí filamentu
 Filament runout. Pausing in 30 seconds;Konec filamentu. Pozastavení za 30 sekund
 File {filename} contains arc commands (G2, G3). Disable them. In Orca: Process Profile -> Arc Approximation -> Uncheck;Soubor {filename} obsahuje příkazy oblouků (G2, G3). Vypněte je. V Orca: Process Profile -> Arc Approximation -> Odškrtnout
-File {filename} has no MD5 checksum. Enable it in Orca. https://github.com/ghzserg/zmod/wiki/Recomendations_en;Soubor {filename} nemá MD5 kontrolní součet. Povolte jej v Orca. https://github.com/ghzserg/zmod/wiki/Recomendations_en
+File {filename} has no MD5 checksum. Enable it in Orca. https://wiki.zmod.link/Recomendations/;Soubor {filename} nemá MD5 kontrolní součet. Povolte jej v Orca. https://wiki.zmod.link/Recomendations/
 File {filename} MD5 mismatch. File deleted. Print canceled;Soubor {filename} má nesouhlasný MD5. Soubor smazán. Tisk zrušen
 File {filename} MD5 mismatch. Print canceled;Soubor {filename} má nesouhlasný MD5. Tisk zrušen
 File {filename} uses unsupported G17/G18/G19 commands. Replace Z-Hop type.;Soubor {filename} používá nepodporované příkazy G17/G18/G19. Nahraďte typ Z-Hop.
@@ -135,7 +135,7 @@ GuppyScreen is not used;GuppyScreen není používán
 has detected that the filament has run out, please load it and press RESUME;zjistil, že filament došel, načtěte jej a stiskněte RESUME
 Heating bed and extruder.;Ohřev podložky a extruderu.
 Helper;Pomocník
-https://github.com/ghzserg/zmod/wiki/FAQ_en;https://github.com/ghzserg/zmod/wiki/FAQ_en
+https://wiki.zmod.link/FAQ/;https://wiki.zmod.link/FAQ/
 Image saved: {png_out_path}. Configuration -> mod_data;Obrázek uložen: {png_out_path}. Configuration -> mod_data
 In Orca. Printer profile -> Extruder 1 -> Z Hop Type. Set Normal or Sloped.;V Orca. Printer profile -> Extruder 1 -> Z Hop Type. Nastavte Normal nebo Sloped.
 In Orca: Printer Profile -> Extruder 1 -> Z Hop Type -> Set to Normal or Sloped;V Orca: Printer Profile -> Extruder 1 -> Z Hop Type -> Nastavte na Normal nebo Sloped
@@ -151,7 +151,7 @@ Left;Levý
 Linear move with gcode state save/restore;Lineární pohyb s uložením/obnovením stavu gcode
 LINE_PURGE forced;LINE_PURGE vynucen
 Load bed mesh: {mesh};Načíst síť podložky: {mesh}
-Load cell reset error. Read FAQ: https://github.com/ghzserg/zmod/wiki/FAQ_en;Chyba resetu zátěžové články. Přečtěte si FAQ: https://github.com/ghzserg/zmod/wiki/FAQ_en
+Load cell reset error. Read FAQ: https://wiki.zmod.link/FAQ/;Chyba resetu zátěžové články. Přečtěte si FAQ: https://wiki.zmod.link/FAQ/
 Load cell reset successful. Weight: {we};Reset zátěžové články úspěšný. Hmotnost: {we}
 Load cell triggered! Make sure the bed is clean!;Zátěžová článka aktivována! Ujistěte se, že podložka je čistá!
 Loaded offset from global settings %s=%.4f;Načten offset z globálních nastavení %s=%.4f
@@ -383,7 +383,7 @@ Loading a similar rod from coil;Načítání podobného filamentu z cívky
 Use SAVE_ZMOD_DATA MESH_TEST=2 to automatically launch KAMP if an error occurs;Použijte SAVE_ZMOD_DATA MESH_TEST=2 pro automatické spuštění KAMP v případě chyby
 If any parameters were changed, it is recommended to reboot the printer;Pokud byly změněny nějaké parametry, doporučuje se restartovat tiskárnu
 Initial setting;Počáteční nastavení
-You can browse and change global parameters if necessary. https://github.com/ghzserg/zmod/wiki/Global_ru;V případě potřeby můžete procházet a měnit globální parametry. https://github.com/ghzserg/zmod/wiki/Global_en
+You can browse and change global parameters if necessary. https://wiki.zmod.link/Global/;V případě potřeby můžete procházet a měnit globální parametry. https://wiki.zmod.link/Global/
 Enable the recommendations plugin? It allows you to configure basic settings with one click.;Povolit plugin doporučení? Umožňuje nakonfigurovat základní nastavení jedním kliknutím.
 Next;Další
 Z-Offset loaded from native screen;Z-Offset načten z nativní obrazovky
@@ -412,7 +412,7 @@ Pause: Restore: {restore}, Temp: {temp}/{heater_bed_temp};Pauza: Obnovit: {resto
 Resume: Restore: {last_extruder_temp.restore}, Temp: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Status: {printer.idle_timeout.state | upper};Pokračovat: Obnovit: {last_extruder_temp.restore}, Teplota: {last_extruder_temp.temp}/{last_extruder_temp.heater_bed_temp}, Stav: {printer.idle_timeout.state | upper}
 WARNING: Last probe MORE saved by %.4f mm!;VAROVÁNÍ: Poslední sonda PŘEKROČILA uloženou hodnotu o %.4f mm!
 Use SAVE_ZMOD_DATA MESH_TEST=%d to automatically launch KAMP if an error occurs;Použijte SAVE_ZMOD_DATA MESH_TEST=%d pro automatické spuštění KAMP v případě chyby
-AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: on // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
-AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test;AutoZOffset: off // See https://github.com/ghzserg/zmod/wiki/Global_en mesh_test
+AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test
+AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test
 Photo;Foto
 There will be a SCHEDULED reboot now;Nyní proběhne NAplánovaný restart
