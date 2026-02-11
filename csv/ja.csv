@@ -416,3 +416,5 @@ AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: オ
 AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: オフ // See https://wiki.zmod.link/Global/ mesh_test
 Photo;写真
 There will be a SCHEDULED reboot now;スケジュールされた再起動を今から実行します
+unknown value:;不明な値:
+Unrecognized value for setting:;設定値が認識されません:

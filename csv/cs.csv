@@ -416,3 +416,5 @@ AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: on 
 AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test
 Photo;Foto
 There will be a SCHEDULED reboot now;Nyní proběhne NAplánovaný restart
+unknown value:;neznámá hodnota:
+Unrecognized value for setting:;Nerozpoznaná hodnota pro nastavení:

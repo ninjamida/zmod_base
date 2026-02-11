@@ -416,3 +416,5 @@ AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: 开
 AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: 关闭 // See https://wiki.zmod.link/Global/ mesh_test
 Photo;照片
 There will be a SCHEDULED reboot now;即将执行计划的重新启动
+unknown value:;未知值:
+Unrecognized value for setting:;无法识别的设置值:

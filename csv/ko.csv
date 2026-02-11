@@ -416,3 +416,5 @@ AutoZOffset: on // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: 켜
 AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: 꺼짐 // See https://wiki.zmod.link/Global/ mesh_test
 Photo;사진
 There will be a SCHEDULED reboot now;예정된 재시작을 지금 시작합니다
+unknown value:;알 수 없는 값:
+Unrecognized value for setting:;설정값을 인식할 수 없습니다:
