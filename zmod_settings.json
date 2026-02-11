@@ -402,7 +402,16 @@
             "get_zmod_data_text": {
                 "*": "ZCONTROL_Z: {zcontrol_z} // SAVE_ZMOD_DATA ZCONTROL_Z={zcontrol_z}"
             }
+        },
+        "language": {
+            "type": "special",
+            "category": "System",
+            "code": "{% set lang = printer.configfile.config.zmod.language|default(\"en\") | string %}\nRESPOND TYPE=command MSG=\"action:prompt_button Language {lang}|LANG|primary\""            
+        },
+        "reset": {
+            "type": "special",
+            "category": "System",
+            "code": "RESPOND TYPE=command MSG=\"action:prompt_button Reset ZMOD Global| _RESET_ZMOD|orange\""
         }
-        
     }
 }
