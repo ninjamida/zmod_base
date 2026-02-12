@@ -11,7 +11,7 @@
         "Printing": {
             "get_zmod_data_text": "===Parameters used during printing===",
             "global_text": "===Parameters used during printing==="
-        }
+        },
         "Print End": {
             "get_zmod_data_text": "===Parameters used at print end and cancellation [END_PRINT]===",
             "global_text": "===Parameters used at print end and cancellation [END_PRINT]==="
