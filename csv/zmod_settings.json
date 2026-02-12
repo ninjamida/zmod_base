@@ -53,6 +53,13 @@
                 "2": "===Auto-assign colors if file colors successfully scanned, halt silent mode print on serious auto-assignment errors===",
                 "1": "===Auto-assign colors if file colors successfully scanned===",
                 "*": "===Auto-assign colors if file colors successfully scanned, halt silent mode print on some auto-assignment errors==="
+            },
+            "global_text": {
+                "0": "===Do not auto-assign colors===",
+                "30": "===Auto-assign colors, silent mode halts on any error===",
+                "2": "===Auto-assign colors, silent mode halts on major error===",
+                "1": "===Auto-assign colors===",
+                "*": "===Auto-assign colors, silent mode halts on some errors==="
             }
         },
         "color_menu_1_based": {
@@ -153,7 +160,7 @@
         },
         "disable_priming": {
             "type": "int",
-            "default": 1,
+            "default": 0,
             "category": "Print Start",
             "show_in_global": true,
             "get_zmod_data_text": {
@@ -229,7 +236,7 @@
         },
         "auto_reboot": {
             "type": "int",
-            "default": 1,
+            "default": 0,
             "category": "Print End",
             "show_in_global": true,
             "get_zmod_data_text": {
@@ -450,8 +457,8 @@
             "show_in_global": true,
             "exclude_from_reset": true,
             "get_zmod_data_text": {
-                "0": "===Using native Klipper=== 11",
                 "0x": "===Using native Klipper=== 12",
+                "0": "===Using native Klipper=== 11",
                 "1": "===Using Klipper 13==="
             }
         },

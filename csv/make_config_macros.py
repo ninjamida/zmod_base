@@ -16,7 +16,7 @@ TYPE_ASSUMPTION = 'int'
 def add_save_zmod_data(file_data, categories, settings):
     indent_level = BASE_INDENT_SAVE_ZMOD_DATA
     
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** BEGIN SAVE_ZMOD_DATA TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# Begin script-generated SAVE_ZMOD_DATA code')
     file_data.append(indent_level * STANDARD_INDENT)
     
     for category, cat_data in categories.items():
@@ -35,8 +35,11 @@ def add_save_zmod_data(file_data, categories, settings):
             indent_level += 1
             
             if set_data.get('type', TYPE_ASSUMPTION) == 'string':
-                file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting} = params.{setting.upper()}|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
-                file_data.append((indent_level * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE=\"{{z{setting.lower()}}}\"")
+                file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = params.{setting.upper()}|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
+                file_data.append((indent_level * STANDARD_INDENT) + f"{{% if z{setting.lower()} == \"0\" %}}")
+                file_data.append(((indent_level + 1) * STANDARD_INDENT) + f"{{% set z{setting.lower()} = \"\" %}}")
+                file_data.append((indent_level * STANDARD_INDENT) + "{% endif %}")
+                file_data.append((indent_level * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE=\"\\\"{{z{setting.lower()}}}\\\"\"")
             else:
                 file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting} = params.{setting.upper()}|default({set_data.get('default', DEFAULT_VALUE_ASSUMPTION)})|{set_data.get('type', TYPE_ASSUMPTION)} %}}")
                 file_data.append((indent_level * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE={{z{setting.lower()}}}")
@@ -50,12 +53,12 @@ def add_save_zmod_data(file_data, categories, settings):
                                 
             file_data.append(indent_level * STANDARD_INDENT)
             
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** END SAVE_ZMOD_DATA TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# End script-generated SAVE_ZMOD_DATA code')
     
 def add_get_zmod_data(file_data, categories, settings):
     indent_level = BASE_INDENT_GET_ZMOD_DATA
     
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** BEGIN GET_ZMOD_DATA TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# Begin script-generated GET_ZMOD_DATA code')
     file_data.append(indent_level * STANDARD_INDENT)
     
     for category, cat_data in categories.items():
@@ -81,10 +84,8 @@ def add_get_zmod_data(file_data, categories, settings):
             setting_type = set_data.get('type', TYPE_ASSUMPTION)
             
             if setting_type == 'string':
-                quote = '"'
                 file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables.{setting.lower()}|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
             else:
-                quote = ''
                 file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables.{setting.lower()}|default({set_data.get('default', DEFAULT_VALUE_ASSUMPTION)})|{setting_type} %}}")
                 
             had_generic = False
@@ -127,7 +128,10 @@ def add_get_zmod_data(file_data, categories, settings):
                     file_data.append((indent_level * STANDARD_INDENT) + f"{{% {condition_string} %}}")    
                     indent_level += 1
                     
-                file_data.append((indent_level * STANDARD_INDENT) + f"RESPOND PREFIX=\"//\" MSG=\"{text} // SAVE_ZMOD_DATA {setting.upper()}={quote}{{z{setting.lower()}}}{quote}\"")
+                if setting_type == 'string':
+                    file_data.append((indent_level * STANDARD_INDENT) + f"RESPOND PREFIX=\"//\" MSG=\"{text} // SAVE_ZMOD_DATA {setting.upper()}=\\\"{{z{setting.lower()}}}\\\"\"")
+                else:
+                    file_data.append((indent_level * STANDARD_INDENT) + f"RESPOND PREFIX=\"//\" MSG=\"{text} // SAVE_ZMOD_DATA {setting.upper()}={{z{setting.lower()}}}\"")
                 
                 if had_generic:
                     break
@@ -137,13 +141,19 @@ def add_get_zmod_data(file_data, categories, settings):
             if not had_generic:
                 if not is_first:
                     file_data.append(((indent_level - 1) * STANDARD_INDENT) + "{% else %}")
-                file_data.append((indent_level * STANDARD_INDENT) + f"RESPOND PREFIX=\"//\" MSG=\"===Unrecognized value for setting:=== {setting.upper()} // SAVE_ZMOD_DATA {setting.upper()}={quote}{{z{setting.lower()}}}{quote}\"")
+                if setting_type == 'string':
+                    file_data.append((indent_level * STANDARD_INDENT) + f"RESPOND PREFIX=\"//\" MSG=\"===Unrecognized value for setting:=== {setting.upper()} // SAVE_ZMOD_DATA {setting.upper()}=\\\"{{z{setting.lower()}}}\\\"\"")
+                else:
+                    file_data.append((indent_level * STANDARD_INDENT) + f"RESPOND PREFIX=\"//\" MSG=\"===Unrecognized value for setting:=== {setting.upper()} // SAVE_ZMOD_DATA {setting.upper()}={{z{setting.lower()}}}\"")
                 
             if not is_first or not had_generic:
                 indent_level -= 1
                 file_data.append((indent_level * STANDARD_INDENT) + "{% endif %}")                
                 
-            file_data.append((indent_level * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE={quote}{{z{setting.lower()}}}{quote}")
+            if setting_type == 'string':
+                file_data.append((indent_level * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE=\"\\\"{{z{setting.lower()}}}\\\"\"")
+            else:
+                file_data.append((indent_level * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE={{z{setting.lower()}}}")
 
             if condition != None:
                 indent_level -= 1
@@ -155,12 +165,12 @@ def add_get_zmod_data(file_data, categories, settings):
             
             file_data.append(indent_level * STANDARD_INDENT)                
     
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** END GET_ZMOD_DATA TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# End script-generated GET_ZMOD_DATA code')
 
 def add_reset_zmod(file_data, categories, settings):
     indent_level = BASE_INDENT_RESET_ZMOD
     
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** BEGIN _RESET_ZMOD TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# Begin script-generated _RESET_ZMOD code')
     file_data.append(indent_level * STANDARD_INDENT)        
     
     for category, cat_data in categories.items():
@@ -185,7 +195,7 @@ def add_reset_zmod(file_data, categories, settings):
                 extra_indent = 0
             
             if set_data.get('type', TYPE_ASSUMPTION) == 'string':
-                target.append(((indent_level + extra_indent) * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE=\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\"")
+                target.append(((indent_level + extra_indent) * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE=\"\\\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\\\"s\"")
             else:
                 target.append(((indent_level + extra_indent) * STANDARD_INDENT) + f"SAVE_VARIABLE VARIABLE={setting.lower()} VALUE={set_data.get('default', DEFAULT_VALUE_ASSUMPTION)}")
         
@@ -203,13 +213,13 @@ def add_reset_zmod(file_data, categories, settings):
             
         file_data.append(indent_level * STANDARD_INDENT)        
     
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** END _RESET_ZMOD TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# End script-generated _RESET_ZMOD code')
             
     
 def add_global(file_data, categories, settings):
     indent_level = BASE_INDENT_GLOBAL
     
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** BEGIN _GLOBAL TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# Begin script-generated _GLOBAL code')
     file_data.append(indent_level * STANDARD_INDENT)      
     
     # This one is trickier. We need some extra logic here to skip unused pages, and divide into pages.
@@ -301,7 +311,8 @@ def add_global(file_data, categories, settings):
                                     text_condition = re.sub(r'[nx]', '', text_condition)
                                 if text_condition == '*':
                                     break
-                                set_values += [text_condition]
+                                if text_condition not in set_values:
+                                    set_values += [text_condition]
 
                         complete = []
                         had_generic = False
@@ -397,63 +408,8 @@ def add_global(file_data, categories, settings):
             file_data.append((indent_level * STANDARD_INDENT) + "{% endif %}")
                              
     
-    file_data.append((indent_level * STANDARD_INDENT) + '# ** END _GLOBAL TEMPLATE SETTINGS ** #')
+    file_data.append((indent_level * STANDARD_INDENT) + '# End script-generated _GLOBAL code')
     file_data.append(indent_level * STANDARD_INDENT)
-    
-"""
-{% if n == 1 and start == 0 %}
-        RESPOND TYPE=command MSG="action:prompt_begin ===Parameters used at print start and bed leveling [START_PRINT]===: {n}"
-
-        # 1
-        {% set zprint_leveling = printer.save_variables.variables.print_leveling|default(0) | int %}
-        {% if zprint_leveling == 1 %}
-            {% if screen == True %}
-                RESPOND TYPE=command MSG="action:prompt_button ===Build bed mesh with native screen on each print.===|SAVE_ZMOD_DATA PRINT_LEVELING=0 I={n}|primary"
-            {% else %}
-                RESPOND TYPE=command MSG="action:prompt_button ===Build bed mesh on each print.===|SAVE_ZMOD_DATA PRINT_LEVELING=0 I={n}|primary"
-            {% endif %}
-        {% else %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Don't build bed mesh on each print.===|SAVE_ZMOD_DATA PRINT_LEVELING=1 I={n}|primary"
-        {% endif %}
-
-        # 2
-        {% set zuse_kamp = printer.save_variables.variables.use_kamp|default(0) | int %}
-        {% if zuse_kamp == 1 %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Use adaptive mesh (KAMP) where possible instead of full bed mesh===|SAVE_ZMOD_DATA USE_KAMP=0 I={n}|primary"
-        {% else %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Don't use KAMP instead of BED_MESH_CALIBRATE===|SAVE_ZMOD_DATA USE_KAMP=1 I={n}|primary"
-        {% endif %}
-
-        # 3
-        {% set zmesh_test = printer.save_variables.variables.mesh_test|default(1) | int %}
-        {% if zmesh_test == 0 %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Don't test bed mesh before printing===|SAVE_ZMOD_DATA MESH_TEST=1 I={n}|primary"
-        {% endif %}
-        {% if zmesh_test == 1 %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Test bed mesh before printing===|SAVE_ZMOD_DATA MESH_TEST=2 I={n}|primary"
-        {% endif %}
-        {% if zmesh_test == 2 %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Test bed mesh before printing + KAMP===|SAVE_ZMOD_DATA MESH_TEST=3 I={n}|primary"
-        {% endif %}
-        {% if zmesh_test == 3 %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Test bed mesh before printing=== + AutoZOffset|SAVE_ZMOD_DATA MESH_TEST=4 I={n}|primary"
-        {% endif %}
-        {% if zmesh_test == 4 %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Test bed mesh before printing=== + AutoZOffset + KAMP|SAVE_ZMOD_DATA MESH_TEST=0 I={n}|primary"
-        {% endif %}
-
-        # 4
-        {% set zforce_md5 = printer.save_variables.variables.force_md5|default(1) | int %}
-        {% if zforce_md5 == 1 %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Check file MD5 checksum===|SAVE_ZMOD_DATA FORCE_MD5=0 I={n}|primary"
-        {% else %}
-            RESPOND TYPE=command MSG="action:prompt_button ===Don't check file MD5 checksum===|SAVE_ZMOD_DATA FORCE_MD5=1 I={n}|primary"
-        {% endif %}
-
-        RESPOND TYPE=command MSG="action:prompt_footer_button ===Next===|_GLOBAL N={n+1}|red"
-        RESPOND TYPE=command MSG="action:prompt_show"
-    {% endif %}
-"""
 
 def main():
     with open('zmod_settings.json', 'r', encoding='utf-8') as f:
@@ -464,25 +420,21 @@ def main():
     
     file_data = []
     
-    with open('base.cfg', 'r', encoding='utf-8') as f:
-        skip_mode = False
+    with open('../base.cfg', 'r', encoding='utf-8') as f:
         for line in f:
-            if line.strip().startswith('# ** BEGIN'):
-                skip_mode = True
-                if line.strip() == '# ** BEGIN SAVE_ZMOD_DATA TEMPLATE SETTINGS ** #':
+            if line.strip().startswith('# **'):
+                if line.strip() == '# ** SAVE_ZMOD_DATA ** #':
                     add_save_zmod_data(file_data, categories, settings)
-                if line.strip() == '# ** BEGIN GET_ZMOD_DATA TEMPLATE SETTINGS ** #':
+                if line.strip() == '# ** GET_ZMOD_DATA ** #':
                     add_get_zmod_data(file_data, categories, settings)
-                if line.strip() == '# ** BEGIN _RESET_ZMOD TEMPLATE SETTINGS ** #':
+                if line.strip() == '# ** _RESET_ZMOD ** #':
                     add_reset_zmod(file_data, categories, settings)
-                if line.strip() == '# ** BEGIN _GLOBAL TEMPLATE SETTINGS ** #':
+                if line.strip() == '# ** _GLOBAL ** #':
                     add_global(file_data, categories, settings)
-            if not skip_mode:
+            else:
                 file_data += [line]
-            if line.strip().startswith('# ** END'):
-                skip_mode = False
                 
-    with open('base-out.cfg', 'w', encoding='utf-8') as f:
+    with open('../base.cfg.tmp', 'w', encoding='utf-8') as f:
         for line in file_data:
             f.write(line)
             if not line.endswith('\n'):
