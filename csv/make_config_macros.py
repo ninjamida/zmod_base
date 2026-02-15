@@ -2,7 +2,6 @@ import json
 import re
 
 # todo: ad5x / screen exclusive set values
-# todo: investigate possible bug saving string values
 
 # zmod_settings.json structure:
 # "Categories": A set of key-value pairs for the categories settings are divided into.
@@ -226,9 +225,9 @@ def add_get_zmod_data(file_data, categories, settings):
             setting_type = set_data.get('type', TYPE_ASSUMPTION)
 
             if setting_type == 'string':
-                file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables.{setting.lower()}|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
+                file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables['{setting.lower()}']|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
             else:
-                file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables.{setting.lower()}|default({set_data.get('default', DEFAULT_VALUE_ASSUMPTION)})|{setting_type} %}}")
+                file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables['{setting.lower()}']|default({set_data.get('default', DEFAULT_VALUE_ASSUMPTION)})|{setting_type} %}}")
 
             had_generic = False
             is_first = True
@@ -345,7 +344,7 @@ def add_reset_zmod(file_data, categories, settings):
             setting_type = set_data.get('type', TYPE_ASSUMPTION)
             quotechar = '"' if setting_type == 'string' else ''
             
-            target.append(((indent_level + extra_indent) * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables.{setting.lower()} %}}")
+            target.append(((indent_level + extra_indent) * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables['{setting.lower()}'] %}}")
             
             if_line = None
             for settable_value in settable_values:
@@ -465,9 +464,9 @@ def add_global(file_data, categories, settings):
                             indent_level += 1
 
                         if setting_type == 'string':
-                            file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables.{setting.lower()}|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
+                            file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables['{setting.lower()}']|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
                         else:
-                            file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables.{setting.lower()}|default({set_data.get('default', DEFAULT_VALUE_ASSUMPTION)})|{setting_type} %}}")
+                            file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables['{setting.lower()}']|default({set_data.get('default', DEFAULT_VALUE_ASSUMPTION)})|{setting_type} %}}")
 
                         setting_conditions = get_setting_global_options(setting, set_data)
                     
