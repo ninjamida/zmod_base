@@ -205,7 +205,7 @@ Play MIDI on print start: {zmidi_start};开始打印时播放MIDI：{zmidi_start
 Play tone;播放提示音
 please heat it up and press RESUME again;请加热后再次按RESUME
 Possible wrong profile loaded (different plate/temperature);可能加载了错误配置（不同打印床/温度）
-Power off FF5M Pro after (min): {timeout};FF5M Pro在{timeout}分钟后关机
+Power off FF5M Pro after (min): {zpro_poweroff_timeout};FF5M Pro在{zpro_poweroff_timeout}分钟后关机
 Power off printer;关闭打印机
 Pre-cleaning completed;预清洗完成
 Priming algorithm: {zclear};预清洗算法：{zclear}
@@ -438,3 +438,6 @@ Auto-assign colors, silent mode halts on any error;自动分配颜色，静音�
 Auto-assign colors, silent mode halts on major error;自动分配颜色，静音模式在出现重大错误时停止
 Auto-assign colors;自动分配颜色
 Auto-assign colors, silent mode halts on some errors;自动分配颜色，静音模式在出现某些错误时停止
+unknown value:;未知值:
+Unrecognized value for setting:;无法识别的设置值:
+custom value:;自定义值:
