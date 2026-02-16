@@ -205,7 +205,7 @@ Play MIDI on print start: {zmidi_start};Reproducir MIDI al iniciar impresión: {
 Play tone;Reproducir tono
 please heat it up and press RESUME again;por favor, caliéntalo y presiona RESUME nuevamente
 Possible wrong profile loaded (different plate/temperature);Posible perfil incorrecto cargado (placa/temperatura diferente)
-Power off FF5M Pro after (min): {timeout};Apagar FF5M Pro después de (min): {pro_poweroff_timeout}
+Power off FF5M Pro after (min): {zpro_poweroff_timeout};Apagar FF5M Pro después de (min): {zpro_poweroff_timeout}
 Power off printer;Apagar impresora
 Pre-cleaning completed;Pre-limpieza completada
 Priming algorithm: {zclear};Algoritmo de purga: {zclear}
@@ -438,3 +438,6 @@ Auto-assign colors, silent mode halts on any error;Asignación automática, el m
 Auto-assign colors, silent mode halts on major error;Asignación automática, el modo silencioso se detiene ante un error grave
 Auto-assign colors;Asignar colores automáticamente
 Auto-assign colors, silent mode halts on some errors;Asignación automática, el modo silencioso se detiene ante algunos errores
+unknown value:;valor desconocido:
+Unrecognized value for setting:;Valor no reconocido para el ajuste:
+custom value:;valor personalizado:
