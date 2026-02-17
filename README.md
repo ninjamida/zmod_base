@@ -1,3 +1,10 @@
+nopoop-new-global-template is an abandoned branch.
+The work from this branch will be split across:
+- travel-via-edges
+- nopoop-improvement
+- color-change-improvement
+
+
 This is the base repository from which the code for
 
 https://github.com/ghzserg/z_ff5m
