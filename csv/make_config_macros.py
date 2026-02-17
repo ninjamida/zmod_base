@@ -124,8 +124,6 @@ def get_valid_options(setting, is_ad5x, is_native_screen):
         'allow_generic': '*' in global_options
     }
     
-    valid_values = result['valid_values']
-    
     if '*' in global_options:
         global_options.remove('*')
         
@@ -271,6 +269,41 @@ def add_get_zmod_data(file_data, is_ad5x, is_native_screen, categories, settings
                 file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables['{setting.lower()}']|default(\"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\")|string %}}")
             else:
                 file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = printer.save_variables.variables['{setting.lower()}']|default({set_data.get('default', DEFAULT_VALUE_ASSUMPTION)})|{setting_type} %}}")
+
+            valid_options = get_valid_options(set_data, is_ad5x, is_native_screen)
+            
+            if valid_options['allow_generic']:
+                if setting_type != 'string':
+                    min_valid_value = valid_options['min_value']
+                    max_valid_value = valid_options['max_value']
+                    
+                    if min_valid_value != None:
+                        file_data.append((indent_level * STANDARD_INDENT) + f"{{% if z{setting.lower()} < {min_valid_value} %}}")
+                        file_data.append(((indent_level + 1) * STANDARD_INDENT) + f"{{% set z{setting.lower()} = {min_valid_value} %}}")
+                        file_data.append((indent_level * STANDARD_INDENT) + f"{{% endif %}}")
+                    if max_valid_value != None:
+                        file_data.append((indent_level * STANDARD_INDENT) + f"{{% if z{setting.lower()} > {max_valid_value} %}}")
+                        file_data.append(((indent_level + 1) * STANDARD_INDENT) + f"{{% set z{setting.lower()} = {max_valid_value} %}}")
+                        file_data.append((indent_level * STANDARD_INDENT) + f"{{% endif %}}")
+            else:
+                reset_condition = ''
+                quotechar = '"' if setting_type == 'string' else ''
+                for valid_option in valid_options['valid_values']:
+                    if reset_condition != '':
+                        reset_condition += ' and '
+                    reset_condition += f"z{setting.lower()} != {quotechar}{valid_option}{quotechar}"
+                    
+                if reset_condition != '':
+                    file_data.append((indent_level * STANDARD_INDENT) + f"{{% if {reset_condition} %}}")
+                    indent_level += 1
+                    
+                    if setting_type == 'string':
+                        file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = \"{set_data.get('default', DEFAULT_STRING_ASSUMPTION)}\" %}}")
+                    else:
+                        file_data.append((indent_level * STANDARD_INDENT) + f"{{% set z{setting.lower()} = {set_data.get('default', DEFAULT_VALUE_ASSUMPTION)} %}}")
+                        
+                    indent_level -= 1
+                    file_data.append((indent_level * STANDARD_INDENT) + f"{{% endif %}}")
 
             had_generic = False
             is_first = True
