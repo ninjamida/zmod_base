@@ -414,8 +414,8 @@ AutoZOffset: off // See https://wiki.zmod.link/Global/ mesh_test;AutoZOffset: в
 Photo;Фото
 There will be a SCHEDULED reboot now;Сейчас произойдёт ЗАПЛАНИРОВАННАЯ перезагрузка
 Parameters used in color selection menu;Параметры, используемые в меню выбора цвета
-Show {zallowed_tool_count} colors;Показать {zallowed_tool_count} цветов
-Show {zallowed_tool_count} colors when file colors cannot be scanned;Показать {zallowed_tool_count} цветов, когда цвета файла не могут быть сканированы
+Show {zallowed_tool_count} colors;Показать цвета: {zallowed_tool_count}
+Show {zallowed_tool_count} colors when file colors cannot be scanned;Показать цвета: {zallowed_tool_count}, если сканирование невозможно
 Don't scan files for color / material data;Не сканировать файлы на наличие данных о цвете / материале
 Check files for pre-prepared color / material data only;Проверять файлы только на наличие подготовленных данных о цвете / материале
 Scan files for color / material data;Сканировать файлы на наличие данных о цвете / материале
