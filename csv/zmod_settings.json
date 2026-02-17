@@ -195,7 +195,7 @@
                 "2": "===Hide color selection, print without IFS==="
             }
         },
-        "zclear": {
+        "clear": {
             "type": "string",
             "default": "LINE_PURGE",
             "category": "Print Start",
