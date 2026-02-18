@@ -215,8 +215,10 @@
             "require_ad5x": 1,
             "get_zmod_data_text": {
                 "0": "===Don't Use trash when printing===",
-                "1": "===Use trash when printing==="
-            }
+                "1": "===Use trash when printing===",
+                "2": "===Slicer-controlled pooping==="
+            },
+            "global_set_values": [0, 1]
         },
         "always_full_color_change": {
             "type": "int",
