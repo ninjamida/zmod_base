@@ -157,6 +157,7 @@ Load cell triggered! Make sure the bed is clean!;Yük hücresi tetiklendi! Yata�
 Loaded offset from global settings %s=%.4f;Genel ayarlardan ofset yüklendi %s=%.4f
 Loading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s;{extruder_temp} sıcaklıkta filament yükleniyor {extrude_len}mm, {speed/60} mm/s hızla
 Loading GuppyScreen;GuppyScreen yükleniyor
+Loading HelixScreen;HelixScreen yükleniyor
 Loading skew_profile;Çarpıklık profili yükleniyor
 Load Z-Offset from global settings;Z-Offset'ı genel ayarlardan yükle
 Load;Yükle
@@ -376,7 +377,7 @@ Incorrect start code START_PRINT EXTRUDER_TEMP BED_TEMP must be written in one l
 Don't forget to turn off the camera on your printer's native screen.;Yazıcınızın yerel ekranındaki kamerayı kapatmayı unutmayın.
 START_PRINT has finished its work.;START_PRINT işini tamamladı.
 Incorrect MCU version. Need run UPDATE_MCU FORCE=13;Hatalı MCU sürümü. UPDATE_MCU FORCE=13 komutunu çalıştırmanız gerekiyor.
-Incorrect ZLINK data. Register your printer on the http://zlink.info and receive a ZLINK string.;Hatalı ZLINK verisi. Yazıcınızı http://zlink.info adresinde kaydedin ve bir ZLINK dizesi alın.
+Incorrect ZLINK data. Register your printer on the http://zmod.link and receive a ZLINK string.;Hatalı ZLINK verisi. Yazıcınızı http://zmod.link adresinde kaydedin ve bir ZLINK dizesi alın.
 Use LOAD_ZOFFSET_NATIVE to copy the Z-Offset from the native screen.;Z-Offset'ı yerel ekrandan kopyalamak için LOAD_ZOFFSET_NATIVE kullanın.
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;Nozulun masaya çarpmasını kontrol etmek için NOZZLE_CONTROL'ü açın
 Loading a similar rod from coil;Bobinden benzer bir çubuk yükleniyor
@@ -444,3 +445,8 @@ custom value:;özel değer:
 Parameters used during printing;Yazdırma sırasında kullanılan parametreler
 Slicer-controlled pooping;Dilimleyici kontrollü boşaltma
 Go to rear edge via edges;Kenarlar üzerinden arka kenara git
+Restart Alter Screen;Alternatif Ekranı Yeniden Başlat
+Alter Screen is not used;Alternatif Ekran kullanılmıyor
+You're using native screen. No need to restart Alter Screen;Yerel ekranı kullanıyorsunuz. Alternatif Ekranı yeniden başlatmaya gerek yok
+You are working WITHOUT native screen with HelixScreen // DISPLAY_OFF HELIX=1;Yerel ekran OLMADAN HelixScreen ile çalışıyorsunuz // DISPLAY_OFF HELIX=1
+Use Z-Offset loading from global parameters to control Z-Offset with Alter Screen;Z-Offset'i Alternatif Ekranla kontrol etmek için genel parametrelerden Z-Offset yüklemeyi kullanın

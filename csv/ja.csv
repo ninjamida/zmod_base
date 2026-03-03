@@ -157,6 +157,7 @@ Load cell triggered! Make sure the bed is clean!;ロードセルがトリガー�
 Loaded offset from global settings %s=%.4f;グローバル設定からオフセットを読み込み %s=%.4f
 Loading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s;{extruder_temp}℃で{speed/60}mm/sの速度で{extrude_len}mmのフィラメントを装填
 Loading GuppyScreen;GuppyScreenを読み込み中
+Loading HelixScreen;HelixScreenを読み込み中
 Loading skew_profile;skew_profileを読み込み中
 Load Z-Offset from global settings;グローバル設定からZオフセットを読み込み
 Load;読み込み
@@ -376,7 +377,7 @@ Incorrect start code START_PRINT EXTRUDER_TEMP BED_TEMP must be written in one l
 Don't forget to turn off the camera on your printer's native screen.;プリンターのネイティブ画面でカメラをオフにすることを忘れないでください。
 START_PRINT has finished its work.;START_PRINTは作業を完了しました。
 Incorrect MCU version. Need run UPDATE_MCU FORCE=13;不正なMCUバージョン。UPDATE_MCU FORCE=13を実行してください
-Incorrect ZLINK data. Register your printer on the http://zlink.info and receive a ZLINK string.;不正なZLINKデータ。http://zlink.info でプリンターを登録し、ZLINK文字列を受信してください。
+Incorrect ZLINK data. Register your printer on the http://zmod.link and receive a ZLINK string.;不正なZLINKデータ。http://zmod.link でプリンターを登録し、ZLINK文字列を受信してください。
 Use LOAD_ZOFFSET_NATIVE to copy the Z-Offset from the native screen.;LOAD_ZOFFSET_NATIVEを使用して、ネイティブ画面からZオフセットをコピーします。
 Turn on NOZZLE_CONTROL to control the nozzle impact on the table;ノズルのテーブルへの影響を制御するにはNOZZLE_CONTROLをオンにします
 Loading a similar rod from coil;コイルから類似のフィラメントをロード中
@@ -444,3 +445,8 @@ custom value:;カスタム値:
 Parameters used during printing;印刷中に使用されるパラメータ
 Slicer-controlled pooping;スライサー制御によるパージ
 Go to rear edge via edges;エッジ経由で後端へ移動
+Restart Alter Screen;代替画面を再起動
+Alter Screen is not used;代替画面は使用されていません
+You're using native screen. No need to restart Alter Screen;ネイティブ画面を使用中です。代替画面を再起動する必要はありません
+You are working WITHOUT native screen with HelixScreen // DISPLAY_OFF HELIX=1;ネイティブ画面なしで HelixScreen を使用中 // DISPLAY_OFF HELIX=1
+Use Z-Offset loading from global parameters to control Z-Offset with Alter Screen;グローバルパラメータからのZ-Offset読み込みを使用して、代替画面でZ-Offsetを制御します
